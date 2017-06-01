@@ -1,0 +1,13 @@
+Source: system76-desktop
+Section: metapackages
+Priority: optional
+Maintainer: Jeremy Soller <jeremy@system76.com>
+Uploaders: Jeremy Soller <jeremy@system76.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/system76/desktop
+
+Package: system76-desktop
+Architecture: all
+Depends: system76-driver system76-default-settings plymouth-theme-system76-logo plymouth-theme-system76-text
+Description: System76 Desktop Metapackage
