@@ -1,3 +1,9 @@
+system76-desktop (1.0.1) zesty; urgency=medium
+
+  * Fix dependencies
+
+ -- Jeremy Soller <jeremy@system76.com>  Thu, 01 Jun 2017 11:06:09 -0600
+
 system76-desktop (1.0.0) zesty; urgency=medium
 
   * First release
