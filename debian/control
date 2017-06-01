@@ -11,6 +11,7 @@ Package: system76-desktop
 Architecture: all
 Depends: system76-driver,
     system76-default-settings,
+    grub-theme-system76,
     plymouth-theme-system76-logo,
     plymouth-theme-system76-text
 Description: System76 Desktop Metapackage
