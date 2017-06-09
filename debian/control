@@ -14,5 +14,6 @@ Depends: system76-driver,
     grub-theme-system76,
     plymouth-theme-system76-logo,
     plymouth-theme-system76-text,
+    gdm3,
     seahorse
 Description: System76 Desktop Metapackage
