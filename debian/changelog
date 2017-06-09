@@ -1,3 +1,9 @@
+system76-desktop (1.0.3) zesty; urgency=medium
+
+  * Add seahorse
+
+ -- Jeremy Soller <jeremy@system76.com>  Fri, 09 Jun 2017 10:40:53 -0600
+
 system76-desktop (1.0.2) zesty; urgency=medium
 
   * Add grub theme
