@@ -10,9 +10,9 @@ Homepage: https://github.com/system76/pop-desktop
 Package: pop-desktop
 Architecture: all
 Depends: pop-default-settings,
-    pop-grub-theme,
-    pop-plymouth-theme-logo,
-    pop-plymouth-theme-text,
+    grub-theme-pop,
+    plymouth-theme-pop-logo,
+    plymouth-theme-pop-text,
     gdm3,
     seahorse
 Description: Pop Desktop Metapackage
