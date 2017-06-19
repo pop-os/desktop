@@ -1,28 +1,34 @@
-system76-desktop (1.0.4) zesty; urgency=medium
+pop-desktop (1.0.5) zesty; urgency=medium
+
+  * Rename to pop-desktop
+
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 19 Jun 2017 11:40:30 -0600
+
+pop-desktop (1.0.4) zesty; urgency=medium
 
   * Add gdm3
 
  -- Jeremy Soller <jeremy@system76.com>  Fri, 09 Jun 2017 14:14:12 -0600
 
-system76-desktop (1.0.3) zesty; urgency=medium
+pop-desktop (1.0.3) zesty; urgency=medium
 
   * Add seahorse
 
  -- Jeremy Soller <jeremy@system76.com>  Fri, 09 Jun 2017 10:40:53 -0600
 
-system76-desktop (1.0.2) zesty; urgency=medium
+pop-desktop (1.0.2) zesty; urgency=medium
 
   * Add grub theme
 
  -- Jeremy Soller <jeremy@system76.com>  Thu, 01 Jun 2017 15:53:09 -0600
 
-system76-desktop (1.0.1) zesty; urgency=medium
+pop-desktop (1.0.1) zesty; urgency=medium
 
   * Fix dependencies
 
  -- Jeremy Soller <jeremy@system76.com>  Thu, 01 Jun 2017 11:06:09 -0600
 
-system76-desktop (1.0.0) zesty; urgency=medium
+pop-desktop (1.0.0) zesty; urgency=medium
 
   * First release
 
