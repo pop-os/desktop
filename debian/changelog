@@ -1,3 +1,9 @@
+pop-desktop (1.0.6) zesty; urgency=medium
+
+  * Fix dependencies with grub and plymouth themes.
+
+ -- Ian Santopietro <ian@ubuntu>  Mon, 19 Jun 2017 14:38:49 -0600
+
 pop-desktop (1.0.5) zesty; urgency=medium
 
   * Rename to pop-desktop
