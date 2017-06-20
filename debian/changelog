@@ -1,3 +1,9 @@
+pop-desktop (1.0.7) zesty; urgency=medium
+
+  * Update conflicts
+
+ -- Jeremy Soller <jeremy@system76.com>  Tue, 20 Jun 2017 09:30:52 -0600
+
 pop-desktop (1.0.6) zesty; urgency=medium
 
   * Fix dependencies with grub and plymouth themes.
