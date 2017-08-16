@@ -1,3 +1,9 @@
+pop-desktop (1.0.8) zesty; urgency=medium
+
+  * Add gnome-initial-setup to dependencies
+
+ -- Jeremy Soller <jeremy@system76.com>  Wed, 16 Aug 2017 12:20:50 -0600
+
 pop-desktop (1.0.7) zesty; urgency=medium
 
   * Update conflicts
