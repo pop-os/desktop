@@ -14,6 +14,7 @@ Depends: pop-default-settings,
     plymouth-theme-pop-logo,
     plymouth-theme-pop-text,
     gdm3,
+    gnome-initial-setup,
     seahorse
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
