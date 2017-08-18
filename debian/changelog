@@ -1,3 +1,9 @@
+pop-desktop (1.0.9) zesty; urgency=medium
+
+  * Depend on gnome-session and gnome-shell
+
+ -- Jeremy Soller <jeremy@system76.com>  Fri, 18 Aug 2017 15:02:11 -0600
+
 pop-desktop (1.0.8) zesty; urgency=medium
 
   * Add gnome-initial-setup to dependencies
