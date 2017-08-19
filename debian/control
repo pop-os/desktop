@@ -9,24 +9,25 @@ Homepage: https://github.com/system76/pop-desktop
 
 Package: pop-desktop
 Architecture: all
-Depends: pop-default-settings,
+Depends: ${misc:Depends},
+# Critical
     cups,
-    firefox,
     fwupdate-signed,
-    gdm3,
-    gnome-disk-utility,
-    gnome-initial-setup,
-    gnome-power-manager,
-    gnome-session,
-    gnome-shell,
-    gnome-system-monitor,
-    gnome-terminal,
-    grub-theme-pop,
     laptop-detect,
-    nautilus,
+    xorg,
+# Desktop
+    gdm3,
+    gnome-initial-setup,
+    gnome-shell,
+# Distribution
+    pop-default-settings,
     plymouth-theme-pop-logo,
     plymouth-theme-pop-text,
+    grub-theme-pop,
+# Applications
+    firefox,
+    gnome-core,
+    gnome-power-manager,
     seahorse,
-    xorg
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
