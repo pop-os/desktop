@@ -1,3 +1,9 @@
+pop-desktop (1.0.16) artful; urgency=medium
+
+  * Add printer drivers, more dependencies
+
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 21 Aug 2017 15:49:56 -0600
+
 pop-desktop (1.0.15) artful; urgency=medium
 
   * Add more dependencies
