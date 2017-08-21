@@ -1,3 +1,9 @@
+pop-desktop (1.0.15) artful; urgency=medium
+
+  * Add more dependencies
+
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 21 Aug 2017 15:03:20 -0600
+
 pop-desktop (1.0.14) artful; urgency=medium
 
   * Fix dependency order
