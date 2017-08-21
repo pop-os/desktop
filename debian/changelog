@@ -1,3 +1,9 @@
+pop-desktop (1.0.13) artful; urgency=medium
+
+  * Update dependencies
+
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 21 Aug 2017 09:11:06 -0600
+
 pop-desktop (1.0.12) artful; urgency=medium
 
   * Update dependencies

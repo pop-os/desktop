@@ -10,23 +10,33 @@ Homepage: https://github.com/system76/pop-desktop
 Package: pop-desktop
 Architecture: all
 Depends: ${misc:Depends},
+# Base
+    app-install-data-partner,
+    apport-gtk,
+    avahi-autoipd,
+    dbus-user-session,
+    libnss-mdns,
+    xdg-user-dirs-gtk,
+    xdg-utils,
+# Hardware
+    acpi-support,
+    alsa-base,
+    bluez-cups,
+    cups-bsd,
+    cups,
+    fwupdate-signed,
+    laptop-detect,
+    pcmciautils,
+    rfkill,
+    wireless-tools,
 # Applications
+    file-roller,
     firefox,
-    gnome-core,
     gnome-power-manager,
 	gnome-screenshot,
     seahorse,
-# CLI
-    flatpak,
-    xdg-user-dirs-gtk,
-    xdg-utils,
-    zip,
-# Distribution
-    pop-default-settings,
-    plymouth-theme-pop-logo,
-    plymouth-theme-pop-text,
-    grub-theme-pop,
-# Input
+    gnome-core,
+# Plugins
     brltty,
 	gnome-orca,
     ibus-table,
@@ -37,20 +47,10 @@ Depends: ${misc:Depends},
     gnome-shell,
 	gnome-video-effects,
     xorg,
-# Hardware
-    acpi-support,
-    alsa-base,
-    bluez-cups,
-    cups-bsd,
-    cups,
-    fwupdate-signed,
-    laptop-detect,
-	pcmciautils,
-    rfkill,
-# Base
-    app-install-data-partner,
-    apport-gtk,
-    avahi-autoipd,
-    dbus-user-session,
+# Distribution
+    pop-default-settings,
+    plymouth-theme-pop-logo,
+    plymouth-theme-pop-text,
+    grub-theme-pop,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
