@@ -10,6 +10,29 @@ Homepage: https://github.com/system76/pop-desktop
 Package: pop-desktop
 Architecture: all
 Depends: ${misc:Depends},
+# Applications
+    file-roller,
+    firefox,
+    gnome-power-manager,
+    gnome-screenshot,
+    seahorse,
+    gnome-core,
+# Plugins
+    brltty,
+    gnome-orca,
+    ibus-table,
+    inputattach,
+# Desktop
+    gdm3,
+    gnome-initial-setup,
+    gnome-shell,
+    gnome-video-effects,
+    xorg,
+# Distribution
+    pop-default-settings,
+    plymouth-theme-pop-logo,
+    plymouth-theme-pop-text,
+    grub-theme-pop,
 # Base
     app-install-data-partner,
     apport-gtk,
@@ -29,28 +52,5 @@ Depends: ${misc:Depends},
     pcmciautils,
     rfkill,
     wireless-tools,
-# Applications
-    file-roller,
-    firefox,
-    gnome-power-manager,
-	gnome-screenshot,
-    seahorse,
-    gnome-core,
-# Plugins
-    brltty,
-	gnome-orca,
-    ibus-table,
-    inputattach,
-# Desktop
-    gdm3,
-    gnome-initial-setup,
-    gnome-shell,
-	gnome-video-effects,
-    xorg,
-# Distribution
-    pop-default-settings,
-    plymouth-theme-pop-logo,
-    plymouth-theme-pop-text,
-    grub-theme-pop,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
