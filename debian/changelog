@@ -1,3 +1,9 @@
+pop-desktop (1.0.17) artful; urgency=medium
+
+  * Break gnome-core
+
+ -- Jeremy Soller <jeremy@system76.com>  Tue, 22 Aug 2017 16:53:53 -0600
+
 pop-desktop (1.0.16) artful; urgency=medium
 
   * Add printer drivers, more dependencies
