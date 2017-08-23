@@ -34,6 +34,7 @@ Recommends:
     libreoffice-impress,
     libreoffice-writer,
     nautilus,
+    pop-gnome-initial-setup,
     seahorse,
     simple-scan,
     system-config-printer,
@@ -69,7 +70,6 @@ Recommends:
 Depends: ${misc:Depends},
 # Desktop
     gdm3,
-    gnome-initial-setup,
     gnome-shell,
     xorg,
 # Distribution

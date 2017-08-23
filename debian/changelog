@@ -1,3 +1,9 @@
+pop-desktop (1.1.1) artful; urgency=medium
+
+  * Use pop-gnome-initial-setup instead of gnome-initial-setup
+
+ -- Jeremy Soller <jeremy@system76.com>  Wed, 23 Aug 2017 13:17:00 -0600
+
 pop-desktop (1.1.0) artful; urgency=medium
 
   * Move dependencies into recommends
