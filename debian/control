@@ -9,7 +9,7 @@ Homepage: https://github.com/system76/pop-desktop
 
 Package: pop-desktop
 Architecture: all
-Recommends:
+Depends: ${misc:Depends},
 # Applications
     baobab,
     eog,
@@ -67,7 +67,6 @@ Recommends:
     sound-theme-freedesktop,
     system-config-printer-udev,
     vino,
-Depends: ${misc:Depends},
 # Desktop
     gdm3,
     gnome-shell,

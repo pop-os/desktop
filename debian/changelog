@@ -1,3 +1,9 @@
+pop-desktop (1.1.2) artful; urgency=medium
+
+  * Revert moving dependencies into recommends
+
+ -- Jeremy Soller <jackpot51@gmail.com>  Wed, 23 Aug 2017 18:14:54 -0600
+
 pop-desktop (1.1.1) artful; urgency=medium
 
   * Use pop-gnome-initial-setup instead of gnome-initial-setup
