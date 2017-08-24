@@ -1,3 +1,9 @@
+pop-desktop (1.1.5) artful; urgency=medium
+
+  * Add gnome-themes-standard and libcanberra-gtk
+
+ -- Jeremy Soller <jeremy@system76.com>  Thu, 24 Aug 2017 14:08:13 -0600
+
 pop-desktop (1.1.4) artful; urgency=medium
 
   * Move critical applications higher to avoid issues, remove canberra
