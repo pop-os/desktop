@@ -1,3 +1,9 @@
+pop-desktop (1.1.6) artful; urgency=medium
+
+  * Add gnome-session
+
+ -- Jeremy Soller <jeremy@system76.com>  Thu, 24 Aug 2017 14:30:37 -0600
+
 pop-desktop (1.1.5) artful; urgency=medium
 
   * Add gnome-themes-standard and libcanberra-gtk
