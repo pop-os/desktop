@@ -1,3 +1,9 @@
+pop-desktop (1.1.7) artful; urgency=medium
+
+  * Update dependency order
+
+ -- Jeremy Soller <jeremy@system76.com>  Wed, 06 Sep 2017 14:26:19 -0600
+
 pop-desktop (1.1.6) artful; urgency=medium
 
   * Add gnome-session

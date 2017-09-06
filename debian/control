@@ -67,9 +67,9 @@ Depends: ${misc:Depends},
     system-config-printer-udev,
     vino,
 # Desktop
-    gdm3,
     gnome-session,
     gnome-shell,
+    gdm3,
     xorg,
 # Distribution
     pop-default-settings,
