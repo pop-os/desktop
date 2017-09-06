@@ -11,7 +11,7 @@ Package: pop-desktop
 Architecture: all
 Depends: ${misc:Depends},
 # First to avoid dependency issues
-    gnome-session
+    gnome-session,
 # Applications
     baobab,
     eog,
