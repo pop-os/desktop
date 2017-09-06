@@ -10,6 +10,8 @@ Homepage: https://github.com/system76/pop-desktop
 Package: pop-desktop
 Architecture: all
 Depends: ${misc:Depends},
+# First to avoid dependency issues
+    gnome-session
 # Applications
     baobab,
     eog,
@@ -67,9 +69,8 @@ Depends: ${misc:Depends},
     system-config-printer-udev,
     vino,
 # Desktop
-    gnome-session,
-    gnome-shell,
     gdm3,
+    gnome-shell,
     xorg,
 # Distribution
     pop-default-settings,
