@@ -1,3 +1,9 @@
+pop-desktop (1.1.11) artful; urgency=medium
+
+  * Replace gnome-session
+
+ -- Jeremy Soller <jeremy@system76.com>  Thu, 07 Sep 2017 16:19:12 -0600
+
 pop-desktop (1.1.10) artful; urgency=medium
 
   * Add pop-session to depends
