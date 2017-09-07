@@ -74,6 +74,7 @@ Depends: ${misc:Depends},
     xorg,
 # Distribution
     pop-default-settings,
+    pop-session,
     plymouth-theme-pop-logo,
     plymouth-theme-pop-text,
     grub-theme-pop,
