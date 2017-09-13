@@ -13,6 +13,7 @@ Depends: ${misc:Depends},
 # First to avoid dependency issues
     pop-session,
 # Applications
+    appcenter,
     baobab,
     com.github.donadigo.eddy,
     eog,
