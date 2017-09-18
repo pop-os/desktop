@@ -1,3 +1,9 @@
+pop-desktop (1.1.18) artful; urgency=medium
+
+  * Remove system-config-printer
+
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 18 Sep 2017 09:52:42 -0600
+
 pop-desktop (1.1.17) artful; urgency=medium
 
   * Add geary

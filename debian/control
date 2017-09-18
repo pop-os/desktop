@@ -42,7 +42,6 @@ Depends: ${misc:Depends},
     pop-gnome-initial-setup,
     seahorse,
     simple-scan,
-    system-config-printer,
     totem,
     yelp,
 # Plugins
