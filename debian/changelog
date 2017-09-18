@@ -1,3 +1,9 @@
+pop-desktop (1.1.19) artful; urgency=medium
+
+  * Use patched gdm3
+
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 18 Sep 2017 11:39:23 -0600
+
 pop-desktop (1.1.18) artful; urgency=medium
 
   * Remove system-config-printer
