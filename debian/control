@@ -72,6 +72,7 @@ Depends: ${misc:Depends},
     sessioninstaller,
     sound-theme-freedesktop,
     system-config-printer-udev,
+    tracker,
     vino,
 # Desktop
     gdm3 (= 3.26.0-1ubuntu1pop0),

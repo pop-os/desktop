@@ -1,3 +1,9 @@
+pop-desktop (1.1.20) artful; urgency=medium
+
+  * Add tracker
+
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 18 Sep 2017 14:39:00 -0600
+
 pop-desktop (1.1.19) artful; urgency=medium
 
   * Use patched gdm3
