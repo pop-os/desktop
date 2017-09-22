@@ -1,3 +1,15 @@
+pop-desktop (1.1.22) artful; urgency=medium
+
+  * Add development tools
+
+ -- Jeremy Soller <jeremy@system76.com>  Fri, 22 Sep 2017 14:59:58 -0600
+
+pop-desktop (1.1.21) artful; urgency=medium
+
+  * Add pop-wallpapers
+
+ -- Jeremy Soller <jeremy@system76.com>  Thu, 21 Sep 2017 12:06:53 -0600
+
 pop-desktop (1.1.20) artful; urgency=medium
 
   * Add tracker
