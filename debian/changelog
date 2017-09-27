@@ -1,3 +1,9 @@
+pop-desktop (1.1.24) artful; urgency=medium
+
+  * Reorder file-roller
+
+ -- Jeremy Soller <jeremy@system76.com>  Wed, 27 Sep 2017 13:07:37 -0600
+
 pop-desktop (1.1.23) artful; urgency=medium
 
   * Replace appcenter with pop-shop

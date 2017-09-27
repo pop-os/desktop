@@ -17,7 +17,6 @@ Depends: ${misc:Depends},
     baobab,
     eog,
     evince,
-    file-roller,
     firefox,
     geary,
     gedit,
@@ -44,7 +43,8 @@ Depends: ${misc:Depends},
     simple-scan,
     totem,
     yelp,
-# Last to replace file-roller as default
+# Last to replace mime information
+    file-roller,
     com.github.donadigo.eddy,
 # Programs
     build-essential,
