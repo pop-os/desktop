@@ -1,3 +1,9 @@
+pop-desktop (1.1.27) artful; urgency=medium
+
+  * Remove patched gnome-control-center, fix is in upstream
+
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 09 Oct 2017 15:37:09 -0600
+
 pop-desktop (1.1.26) artful; urgency=medium
 
   * Use patched gnome-control-center
