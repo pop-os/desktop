@@ -82,7 +82,7 @@ Depends: ${misc:Depends},
     vino,
 # Desktop
     gdm3 (= 3.26.0-1ubuntu1pop0),
-    gnome-shell,
+    gnome-shell (= 3.26.1-0ubuntu1pop0),
     xorg,
 # Distribution
     pop-default-settings,

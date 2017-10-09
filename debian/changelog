@@ -1,3 +1,21 @@
+pop-desktop (1.1.27) artful; urgency=medium
+
+  * Remove patched gnome-control-center, fix is in upstream
+
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 09 Oct 2017 15:37:09 -0600
+
+pop-desktop (1.1.26) artful; urgency=medium
+
+  * Use patched gnome-control-center
+
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 09 Oct 2017 15:13:44 -0600
+
+pop-desktop (1.1.25) artful; urgency=medium
+
+  * Use patched gnome-shell
+
+ -- Jeremy Soller <jeremy@system76.com>  Fri, 06 Oct 2017 13:36:38 -0600
+
 pop-desktop (1.1.24) artful; urgency=medium
 
   * Reorder file-roller
