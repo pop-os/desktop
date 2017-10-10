@@ -81,8 +81,8 @@ Depends: ${misc:Depends},
     tracker,
     vino,
 # Desktop
-    gdm3 (= 3.26.0-1ubuntu1pop0),
-    gnome-shell (= 3.26.1-0ubuntu1pop0),
+    gdm3,
+    gnome-shell,
     xorg,
 # Distribution
     pop-default-settings,
