@@ -120,5 +120,8 @@ Depends: ${misc:Depends},
     pulseaudio,
     rfkill,
     wireless-tools,
+Recommends:
+# Plugins
+    network-manager-config-connectivity-ubuntu,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
