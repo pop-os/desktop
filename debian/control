@@ -123,5 +123,7 @@ Depends: ${misc:Depends},
 Recommends:
 # Plugins
     network-manager-config-connectivity-ubuntu,
+# Distribution
+    pop-plymouth-timeout,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
