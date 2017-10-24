@@ -1,3 +1,9 @@
+pop-desktop (1.1.31) artful; urgency=medium
+
+  * Add lvm2
+
+ -- Jeremy Soller <jeremy@system76.com>  Tue, 24 Oct 2017 10:43:30 -0600
+
 pop-desktop (1.1.30) artful; urgency=medium
 
   * Add pop-plymouth-timeout
