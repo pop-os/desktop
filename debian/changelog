@@ -1,3 +1,9 @@
+pop-desktop (1.1.32) artful; urgency=medium
+
+  * pop-desktop now depends on net-tools
+
+ -- Jason Gerard DeRose <jason@system76.com>  Thu, 26 Oct 2017 14:17:53 -0600
+
 pop-desktop (1.1.31) artful; urgency=medium
 
   * Add lvm2
