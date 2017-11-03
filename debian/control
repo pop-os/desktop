@@ -17,7 +17,6 @@ Depends: ${misc:Depends},
     baobab,
     eog,
     evince,
-    firefox,
     geary,
     gedit,
     gnome-calculator,
@@ -123,6 +122,8 @@ Depends: ${misc:Depends},
     rfkill,
     wireless-tools,
 Recommends:
+# Applications
+    firefox,
 # Plugins
     network-manager-config-connectivity-ubuntu,
 # Distribution
