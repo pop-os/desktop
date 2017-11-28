@@ -1,3 +1,10 @@
+pop-desktop (1.2.0) bionic; urgency=medium
+
+  * Bionic release
+  * Add fonts-noto-color-emoji
+
+ -- Jeremy Soller <jeremy@system76.com>  Tue, 28 Nov 2017 13:47:05 -0700
+
 pop-desktop (1.1.33) artful; urgency=medium
 
   * Move firefox to recommends

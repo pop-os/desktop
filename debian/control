@@ -53,6 +53,7 @@ Depends: ${misc:Depends},
 # Plugins
     brltty,
     chrome-gnome-shell,
+    fonts-noto-color-emoji,
     ghostscript-x,
     gnome-bluetooth,
     gnome-online-miners,
