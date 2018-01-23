@@ -78,7 +78,6 @@ Depends: ${misc:Depends},
     network-manager-pptp-gnome,
     sessioninstaller,
     sound-theme-freedesktop,
-    tracker,
     vino,
 # Desktop
     gdm3,
@@ -127,6 +126,7 @@ Recommends:
     firefox,
 # Plugins
     network-manager-config-connectivity-ubuntu,
+    tracker,
 # Distribution
     pop-plymouth-timeout,
 Conflicts: system76-desktop
