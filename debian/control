@@ -99,7 +99,6 @@ Depends: ${misc:Depends},
     net-tools,
     policykit-desktop-privileges,
     resolvconf,
-    unattended-upgrades,
     whoopsie,
     xdg-user-dirs-gtk,
     xdg-utils,
@@ -129,5 +128,7 @@ Recommends:
     tracker,
 # Distribution
     pop-plymouth-timeout,
+# Base
+    unattended-upgrades,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
