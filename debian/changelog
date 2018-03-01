@@ -1,6 +1,7 @@
-pop-desktop (1.2.1ubuntu1) UNRELEASED; urgency=medium
+pop-desktop (1.2.2) bionic; urgency=medium
 
-  * Move unattended-upgrades to recommends
+  * Remove unattended-upgrades
+  * Add font packages
 
  -- Jeremy Soller <jeremy@system76.com>  Wed, 14 Feb 2018 16:05:10 -0700
 
