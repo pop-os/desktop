@@ -122,9 +122,9 @@ Recommends:
     libreoffice-calc,
     libreoffice-impress,
     libreoffice-writer,
+# Plugins
     libreoffice-gnome,
     libreoffice-ogltrans,
-# Plugins
     network-manager-config-connectivity-ubuntu,
 # Distribution
     pop-plymouth-timeout,
