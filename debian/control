@@ -84,9 +84,6 @@ Depends: ${misc:Depends},
     xorg,
 # Distribution
     pop-default-settings,
-    plymouth-theme-pop-logo,
-    plymouth-theme-pop-text,
-    grub-theme-pop,
 # Base
     app-install-data-partner,
     apt-transport-https,
@@ -132,7 +129,5 @@ Recommends:
     libreoffice-gnome,
     libreoffice-ogltrans,
     network-manager-config-connectivity-ubuntu,
-# Distribution
-    pop-plymouth-timeout,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
