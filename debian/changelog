@@ -1,3 +1,9 @@
+pop-desktop (1.2.6) bionic; urgency=medium
+
+  * Remove nautilus-share
+
+ -- Jeremy Soller <jeremy@system76.com>  Fri, 06 Apr 2018 10:34:11 -0600
+
 pop-desktop (1.2.5) bionic; urgency=medium
 
   * Remove plymouth packages
