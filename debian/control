@@ -130,5 +130,7 @@ Recommends:
     libreoffice-gnome,
     libreoffice-ogltrans,
     network-manager-config-connectivity-ubuntu,
+# Desktop
+    hidpi-daemon,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
