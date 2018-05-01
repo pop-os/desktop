@@ -119,6 +119,7 @@ Depends: ${misc:Depends},
     printer-driver-all,
     pulseaudio,
     rfkill,
+    ubuntu-drivers-common,
     wireless-tools,
 Recommends:
 # Applications
