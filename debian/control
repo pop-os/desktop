@@ -127,6 +127,7 @@ Recommends:
     libreoffice-impress,
     libreoffice-writer,
 # Plugins
+    fonts-noto-color-emoji,
     libreoffice-gnome,
     libreoffice-ogltrans,
     network-manager-config-connectivity-ubuntu,

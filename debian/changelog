@@ -1,3 +1,9 @@
+pop-desktop (1.2.7) bionic; urgency=medium
+
+  * Add fonts-noto-color-emoji again
+
+ -- Jeremy Soller <jeremy@system76.com>  Tue, 01 May 2018 11:01:33 -0600
+
 pop-desktop (1.2.6) bionic; urgency=medium
 
   * Remove nautilus-share
