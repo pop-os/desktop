@@ -135,7 +135,5 @@ Recommends:
     network-manager-config-connectivity-ubuntu,
 # Desktop
     hidpi-daemon,
-# Distribution
-    grub-pop-disable-splash,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage

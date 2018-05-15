@@ -1,3 +1,9 @@
+pop-desktop (1.2.10) bionic; urgency=medium
+
+  * Remove grub-pop-disable-splash
+
+ -- Jeremy Soller <jeremy@system76.com>  Tue, 15 May 2018 07:59:04 -0600
+
 pop-desktop (1.2.9) bionic; urgency=medium
 
   * Add libegl-mesa0
