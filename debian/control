@@ -96,7 +96,6 @@ Depends: ${misc:Depends},
     net-tools,
     policykit-desktop-privileges,
     resolvconf,
-    whoopsie,
     xdg-user-dirs-gtk,
     xdg-utils,
 # Hardware
