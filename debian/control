@@ -74,7 +74,7 @@ Depends: ${misc:Depends},
     libproxy1-plugin-networkmanager,
     nautilus-sendto,
     network-manager-pptp-gnome,
-    sessioninstaller,
+    #sessioninstaller, # Not available in eoan, find replacement
     sound-theme-freedesktop,
     vino,
 # Desktop
