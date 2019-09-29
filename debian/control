@@ -141,5 +141,6 @@ Recommends:
     network-manager-config-connectivity-ubuntu,
 # Desktop
     hidpi-daemon,
+    libu2f-udev,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
