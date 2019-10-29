@@ -127,6 +127,8 @@ Depends: ${misc:Depends},
     ubuntu-drivers-common,
     wireless-tools,
     vdpau-driver-all,
+# Kernel
+    linux-system76,
 Recommends:
 # Applications
     firefox,
