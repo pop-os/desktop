@@ -1,3 +1,15 @@
+pop-desktop (1.3.0) eoan; urgency=medium
+
+  * Add linux-system76 dependency
+
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 28 Oct 2019 20:40:15 -0600
+
+pop-desktop (1.2.12) cosmic; urgency=medium
+
+  * Make cryptsetup a required dependency to prevent bionic upgrade issues
+
+ -- Michael Aaron Murphy <michael@system76.com>  Mon, 15 Oct 2018 13:15:00 -0600
+
 pop-desktop (1.2.11) bionic; urgency=medium
 
   * Remove whoopsie
