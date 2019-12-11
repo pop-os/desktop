@@ -129,6 +129,8 @@ Depends: ${misc:Depends},
     vdpau-driver-all,
 # Kernel
     linux-system76,
+# Fix for slow-opening applications
+    appmenu-gtk2-module,
 Recommends:
 # Applications
     firefox,
