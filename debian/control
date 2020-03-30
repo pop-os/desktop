@@ -1,6 +1,6 @@
 Source: pop-desktop
 Section: metapackages
-Priority: optional
+Priority: required
 Maintainer: Jeremy Soller <jeremy@system76.com>
 Uploaders: Ian Santopietro <ian@system76.com>
 Build-Depends: debhelper (>= 9)
@@ -9,6 +9,7 @@ Homepage: https://github.com/system76/pop-desktop
 
 Package: pop-desktop
 Architecture: all
+Essential: yes
 Depends: ${misc:Depends},
 # First to avoid dependency issues
     pop-wallpapers,
