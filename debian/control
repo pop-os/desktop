@@ -45,7 +45,6 @@ Depends: ${misc:Depends},
     com.github.donadigo.eddy,
 # Programs
     build-essential,
-    bzr,
     curl,
     git,
     popsicle,
