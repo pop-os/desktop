@@ -138,6 +138,7 @@ Recommends:
     libreoffice-calc,
     libreoffice-impress,
     libreoffice-writer,
+    pop-transition,
 # Plugins
     fonts-noto-color-emoji,
     gnome-shell-extension-prefs,
