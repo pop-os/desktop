@@ -22,9 +22,6 @@ Depends: ${misc:Depends},
     nautilus,
     pop-gnome-initial-setup,
     pop-shop,
-# Last to replace mime information
-    file-roller,
-    com.github.donadigo.eddy,
 # Programs
     build-essential,
     curl,
@@ -139,6 +136,9 @@ Recommends:
     simple-scan,
     totem,
     yelp,
+# Last to replace mime information
+    file-roller,
+    com.github.donadigo.eddy,
 # Plugins
     fonts-noto-color-emoji,
     gnome-shell-extension-prefs,
