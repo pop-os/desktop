@@ -145,6 +145,7 @@ Recommends:
     libreoffice-gnome,
     libreoffice-ogltrans,
     network-manager-config-connectivity-pop,
+    appmenu-gtk3-module,
 # Desktop
     hidpi-daemon,
     flatpak,
