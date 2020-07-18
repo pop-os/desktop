@@ -115,6 +115,7 @@ Recommends:
     baobab,
     eog,
     evince,
+    ffmpeg,
     firefox,
     geary,
     gedit,
