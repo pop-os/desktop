@@ -26,7 +26,6 @@ Depends: ${misc:Depends},
     build-essential,
     curl,
     git,
-    popsicle,
 # Plugins
     brltty,
     chrome-gnome-shell,
@@ -139,6 +138,8 @@ Recommends:
 # Last to replace mime information
     file-roller,
     com.github.donadigo.eddy,
+# Programs
+    popsicle,
 # Plugins
     fonts-noto-color-emoji,
     gnome-shell-extension-prefs,
