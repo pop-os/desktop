@@ -123,6 +123,7 @@ Recommends:
     gnome-screenshot,
     gnome-weather,
     gucharmap,
+    ibus-table-emoji,
     libavcodec58,
     libreoffice-calc,
     libreoffice-impress,
