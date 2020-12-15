@@ -124,6 +124,7 @@ Recommends:
     gnome-weather,
     gucharmap,
     ibus-table-emoji,
+    io.elementary.sideload,
     libavcodec58,
     libreoffice-calc,
     libreoffice-impress,
