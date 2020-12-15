@@ -125,6 +125,7 @@ Recommends:
     gnome-screenshot,
     gnome-weather,
     gucharmap,
+    io.elementary.sideload,
     libavcodec58,
     libreoffice-calc,
     libreoffice-impress,
