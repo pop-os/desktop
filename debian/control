@@ -152,5 +152,6 @@ Recommends:
 # Desktop
     hidpi-daemon,
     flatpak,
+    touchegg,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
