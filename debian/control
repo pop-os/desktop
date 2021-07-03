@@ -61,6 +61,7 @@ Depends: ${misc:Depends},
     xorg,
 # Distribution
     pop-default-settings,
+    pop-upgrade,
 # Base
     app-install-data-partner,
     apt-transport-https,
