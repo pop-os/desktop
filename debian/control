@@ -1,6 +1,6 @@
 Source: pop-desktop
 Section: metapackages
-Priority: required
+Priority: optional
 Maintainer: Jeremy Soller <jeremy@system76.com>
 Uploaders: Ian Santopietro <ian@system76.com>
 Build-Depends: debhelper (>= 9)
