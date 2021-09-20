@@ -52,6 +52,7 @@ Depends: ${misc:Depends},
     libproxy1-plugin-networkmanager,
     nautilus-sendto,
     network-manager-pptp-gnome,
+    network-manager-openvpn-gnome,
     sessioninstaller,
     sound-theme-freedesktop,
 # Desktop
