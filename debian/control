@@ -12,6 +12,7 @@ Architecture: all
 Essential: yes
 Depends: ${misc:Depends},
 # First to avoid dependency issues
+    adwaita-icon-theme-full,
     pop-wallpapers,
     pop-session,
 # Applications
