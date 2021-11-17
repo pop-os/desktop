@@ -157,6 +157,8 @@ Recommends:
     hidpi-daemon,
     flatpak,
     touchegg,
+# OOM Killer
+    bustd,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
 
@@ -312,4 +314,6 @@ Recommends:
     hidpi-daemon,
     flatpak,
     touchegg,
+# OOM Killer
+    bustd,
 Description: Pop Desktop Metapackage for Raspberry Pi
