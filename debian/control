@@ -9,7 +9,7 @@ Homepage: https://github.com/system76/pop-desktop
 
 Package: pop-desktop
 Architecture: all
-Essential: yes
+Protected: yes
 Depends: ${misc:Depends},
 # First to avoid dependency issues
     adwaita-icon-theme-full,
