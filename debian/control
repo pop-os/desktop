@@ -156,6 +156,7 @@ Recommends:
 # Desktop
     hidpi-daemon,
     flatpak,
+    system76-scheduler,
     touchegg,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
@@ -311,5 +312,6 @@ Recommends:
 # Desktop
     hidpi-daemon,
     flatpak,
+    system76-scheduler,
     touchegg,
 Description: Pop Desktop Metapackage for Raspberry Pi
