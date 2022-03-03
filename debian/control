@@ -54,7 +54,6 @@ Depends: ${misc:Depends},
     nautilus-sendto,
     network-manager-pptp-gnome,
     network-manager-openvpn-gnome,
-    sessioninstaller,
     sound-theme-freedesktop,
 # Desktop
     gdm3,
@@ -152,6 +151,7 @@ Recommends:
     libreoffice-gnome,
     libreoffice-ogltrans,
     network-manager-config-connectivity-pop,
+    sessioninstaller,
     appmenu-gtk3-module,
 # Desktop
     hidpi-daemon,
@@ -205,7 +205,6 @@ Depends: ${misc:Depends},
     libproxy1-plugin-networkmanager,
     nautilus-sendto,
     network-manager-pptp-gnome,
-    sessioninstaller,
     sound-theme-freedesktop,
 # Desktop
     gdm3,
@@ -308,6 +307,7 @@ Recommends:
     libreoffice-gnome,
     libreoffice-ogltrans,
     network-manager-config-connectivity-pop,
+    sessioninstaller,
     appmenu-gtk3-module,
 # Desktop
     hidpi-daemon,
