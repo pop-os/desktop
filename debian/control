@@ -100,11 +100,19 @@ Depends: ${misc:Depends},
     openprinting-ppds,
     pcmciautils,
     printer-driver-all,
-    pulseaudio,
     rfkill,
     ubuntu-drivers-common,
     wireless-tools,
     vdpau-driver-all,
+# Pipewire
+    libldacbt-abr2,
+    libldacbt-enc2,
+    libopenaptx0,
+    libspa-0.2-bluetooth,
+    pipewire,
+    pipewire-audio-client-libraries,
+    pipewire-pulse,
+    wireplumber,
 # Kernel
     linux-system76,
 # Fix for slow-opening applications
@@ -157,7 +165,7 @@ Recommends:
     flatpak,
     system76-scheduler,
     touchegg,
-Conflicts: system76-desktop
+Conflicts: system76-desktop, pulseaudio
 Description: Pop Desktop Metapackage
 
 Package: pop-desktop-raspi
@@ -253,18 +261,27 @@ Depends: ${misc:Depends},
     pcmciautils,
     pi-bluetooth,
     printer-driver-all,
-    pulseaudio,
     rfkill,
     rpi-eeprom,
     ubuntu-drivers-common,
     wireless-tools,
     u-boot-rpi,
     vdpau-driver-all,
+# Pipewire
+    libldacbt-abr2,
+    libldacbt-enc2,
+    libopenaptx0,
+    libspa-0.2-bluetooth,
+    pipewire,
+    pipewire-audio-client-libraries,
+    pipewire-pulse,
+    wireplumber,
 # Kernel
     linux-firmware-raspi2,
     linux-raspi,
 # Fix for slow-opening applications
     appmenu-gtk2-module,
+Conflicts: pulseaudio
 Recommends:
 # Applications
     baobab,
