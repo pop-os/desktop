@@ -130,7 +130,6 @@ Recommends:
     gnome-contacts,
     gnome-font-viewer,
     gnome-power-manager,
-    gnome-screenshot,
     gnome-weather,
     gucharmap,
     ibus-table-emoji,
