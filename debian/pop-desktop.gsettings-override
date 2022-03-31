@@ -4,6 +4,7 @@
 
 [org.gnome.desktop.background]
 picture-uri = 'file:///usr/share/backgrounds/pop/kate-hazen-pop-retro1.png'
+picture-uri-dark = 'file:///usr/share/backgrounds/pop/kate-hazen-pop-retro2.png'
 
 [org.gnome.desktop.privacy]
 report-technical-problems = false
