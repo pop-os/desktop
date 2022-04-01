@@ -13,7 +13,7 @@ Essential: yes
 Depends: ${misc:Depends},
 # First to avoid dependency issues
     adwaita-icon-theme-full,
-    pop-wallpapers,
+    pop-wallpapers | pop-hp-wallpapers,
     pop-session,
 # Applications
     gnome-control-center,
