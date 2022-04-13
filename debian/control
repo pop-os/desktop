@@ -8,7 +8,7 @@ Standards-Version: 3.9.8
 Homepage: https://github.com/system76/pop-desktop
 
 Package: pop-desktop
-Architecture: all
+Architecture: linux-any
 Essential: yes
 Depends: ${misc:Depends},
 # First to avoid dependency issues
@@ -78,7 +78,7 @@ Depends: ${misc:Depends},
     xdg-user-dirs-gtk,
     xdg-utils,
 # Hardware
-    acpi-support,
+    acpi-support [amd64],
     alsa-base,
     bluez,
     bluez-cups,
@@ -114,7 +114,7 @@ Depends: ${misc:Depends},
     pipewire-pulse,
     wireplumber,
 # Kernel
-    linux-system76,
+    linux-system76 [amd64],
 # Fix for slow-opening applications
     appmenu-gtk2-module,
 Recommends:
