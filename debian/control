@@ -113,6 +113,7 @@ Depends: ${misc:Depends},
     pipewire,
     pipewire-audio-client-libraries,
     pipewire-pulse,
+    pulseaudio-utils,
     wireplumber,
 # Kernel
     linux-system76 [amd64],
