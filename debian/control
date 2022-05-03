@@ -87,7 +87,6 @@ Depends: ${misc:Depends},
     fwupd,
     fwupdate,
     gstreamer1.0-alsa,
-    gstreamer1.0-vaapi,
     ifupdown,
     laptop-detect,
     libblockdev-crypto2,
@@ -107,7 +106,7 @@ Depends: ${misc:Depends},
 # Pipewire
     libldacbt-abr2,
     libldacbt-enc2,
-    libopenaptx0,
+    libfreeaptx0,
     libspa-0.2-bluetooth,
     libspa-0.2-jack,
     pipewire,
@@ -156,6 +155,7 @@ Recommends:
     fonts-noto-color-emoji,
     gnome-remote-desktop,
     gnome-shell-extension-prefs,
+    gstreamer1.0-vaapi,
     libreoffice-gnome,
     libreoffice-ogltrans,
     network-manager-config-connectivity-pop,
@@ -166,7 +166,7 @@ Recommends:
     flatpak,
     system76-scheduler,
     touchegg,
-Conflicts: system76-desktop, pulseaudio
+Conflicts: system76-desktop, pulseaudio, pipewire-media-session
 Description: Pop Desktop Metapackage
 
 Package: pop-desktop-raspi
