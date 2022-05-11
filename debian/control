@@ -162,6 +162,7 @@ Recommends:
     sessioninstaller,
     appmenu-gtk3-module,
 # Desktop
+    dbus-broker,
     hidpi-daemon,
     flatpak,
     system76-scheduler,
