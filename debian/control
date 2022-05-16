@@ -75,6 +75,7 @@ Depends: ${misc:Depends},
     net-tools,
     policykit-desktop-privileges,
     resolvconf,
+    xdg-desktop-portal-gnome,
     xdg-user-dirs-gtk,
     xdg-utils,
 # Hardware
