@@ -105,6 +105,7 @@ Depends: ${misc:Depends},
     wireless-tools,
     vdpau-driver-all,
 # Pipewire
+    libasound2-plugins,
     libldacbt-abr2,
     libldacbt-enc2,
     libfreeaptx0,
