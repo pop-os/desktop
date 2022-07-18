@@ -28,7 +28,6 @@ Depends: ${misc:Depends},
     curl,
     git,
 # Plugins
-    brltty,
     chrome-gnome-shell,
     fonts-dejavu-core,
     fonts-freefont-ttf,
@@ -155,6 +154,7 @@ Recommends:
 # Programs
     popsicle,
 # Plugins
+    brltty,
     fonts-noto-color-emoji,
     gnome-remote-desktop,
     gnome-shell-extension-prefs,
