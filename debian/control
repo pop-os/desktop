@@ -164,6 +164,8 @@ Recommends:
     network-manager-config-connectivity-pop,
     sessioninstaller,
     appmenu-gtk3-module,
+# Time
+    chrony,
 # Desktop
     dbus-broker,
     hidpi-daemon,
