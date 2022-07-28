@@ -65,6 +65,7 @@ Depends: ${misc:Depends},
     apt-transport-https,
     avahi-autoipd,
     avahi-daemon,
+    chrony,
     cryptsetup,
     dbus-user-session,
     ecryptfs-utils,
@@ -164,8 +165,6 @@ Recommends:
     network-manager-config-connectivity-pop,
     sessioninstaller,
     appmenu-gtk3-module,
-# Time
-    chrony,
 # Desktop
     dbus-broker,
     hidpi-daemon,
