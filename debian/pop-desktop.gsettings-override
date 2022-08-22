@@ -18,6 +18,8 @@ session-name = "pop"
 [org.gnome.login-screen]
 logo = ''
 
+# These settings are overwritten in pop-os/default-settings usr/bin/pop-app-folders
+# To not change existing installs this setting is left here, and modified there.
 [org.gnome.settings-daemon.plugins.power]
 sleep-inactive-ac-type = 'nothing'
 sleep-inactive-battery-type = 'nothing'
