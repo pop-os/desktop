@@ -164,7 +164,6 @@ Recommends:
     libreoffice-ogltrans,
     network-manager-config-connectivity-pop,
     sessioninstaller,
-    appmenu-gtk3-module,
 # Desktop
     dbus-broker,
     hidpi-daemon,
