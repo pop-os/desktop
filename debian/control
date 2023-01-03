@@ -119,8 +119,6 @@ Depends: ${misc:Depends},
     wireplumber,
 # Kernel
     linux-system76 [amd64],
-# Fix for slow-opening applications
-    appmenu-gtk2-module,
 Recommends:
 # Applications
     baobab,
