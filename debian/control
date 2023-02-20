@@ -195,28 +195,28 @@ Depends: ${misc:Depends},
   xdg-desktop-portal-kde,
   xdg-user-dirs,
   ark,
-  systemsettings
-  print-manager
-  plasma-widgets-addons
-  plasma-thunderbolt
-  plasma-systemmonitor
-  plasma-runner-installer
-  plasma-discover
-  plasma-discover-backend-flatpak
-  plasma-pa
-  plasma-nm
-  plasma-browser-integration
-  kwin-bismuth
-  kscreen
-  kde-config-sddm
-  kde-config-systemd
-  kde-config-screenlocker
-  kde-config-gtk-style
+  systemsettings,
+  print-manager,
+  plasma-widgets-addons,
+  plasma-thunderbolt,
+  plasma-systemmonitor,
+  plasma-runner-installer,
+  plasma-discover,
+  plasma-discover-backend-flatpak,
+  plasma-pa,
+  plasma-nm,
+  plasma-browser-integration,
+  kscreen,
+  kde-config-sddm,
+  kde-config-systemd,
+  kde-config-screenlocker,
+  kde-config-gtk-style,
 Recommends:
   libreoffice-kde,
   libreoffice-qt5,
   libreoffice-plasma,
   plasma-browser-integration,
+  kwin-bismuth,
 Conflicts:
     baobab,
     eog,
