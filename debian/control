@@ -191,6 +191,7 @@ Architecture: amd64
 Depends: ${misc:Depends},
   dolphin,
   sddm,
+  kde-config-sddm,
   kde-plasma-desktop,
   xdg-desktop-portal-kde,
   xdg-user-dirs,
