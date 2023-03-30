@@ -206,7 +206,7 @@ Depends: ${misc:Depends},
   plasma-pa,
   plasma-nm,
   plasma-browser-integration,
-  powerdevil
+  powerdevil,
   kscreen,
   kde-config-sddm,
   kde-config-systemd,
