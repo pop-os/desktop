@@ -7,38 +7,31 @@ Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Homepage: https://github.com/system76/pop-desktop
 
-Package: pop-desktop
+#
+# Main Pop!_OS Metapackages in decending
+# order of abstraction
+#   - pop-desktop
+#   - pop-server
+#   - pop-container-interactive
+#   - pop-container-runtime
+#
+
+Package: pop-dekstop
 Architecture: linux-any
 Essential: yes
 Depends: ${misc:Depends},
 # First to avoid dependency issues
     adwaita-icon-theme-full,
-    pop-wallpapers | pop-hp-wallpapers,
-    pop-session,
-# Applications
-    gnome-control-center,
-    gnome-disk-utility,
-    gnome-system-monitor,
-    gnome-terminal | kgx,
-    language-selector-gnome,
-    nautilus,
-    pop-gnome-initial-setup,
-# Programs
-    build-essential,
-    curl,
-    git,
+    pop-de-gnome | pop-community-de-kde,
+    pop-server,
+    pop-pipewire,
+# Desktop
+    xorg,
 # Plugins
-    chrome-gnome-shell,
     fonts-dejavu-core,
     fonts-freefont-ttf,
     fonts-liberation,
     ghostscript-x,
-    gnome-bluetooth,
-    gnome-online-miners,
-    gnome-orca,
-    gnome-menus,
-    gnome-themes-standard,
-    gnome-video-effects,
     gvfs-backends,
     gvfs-fuse,
     ibus-table,
@@ -47,36 +40,39 @@ Depends: ${misc:Depends},
     libcanberra-gtk-module,
     libegl-mesa0,
     libglib2.0-bin,
-    libpam-gnome-keyring,
     libproxy1-plugin-gsettings,
     libproxy1-plugin-networkmanager,
-    nautilus-sendto,
-    network-manager-pptp-gnome,
-    network-manager-openvpn-gnome,
     sound-theme-freedesktop,
+Recommends:
+    pop-wallpapers | pop-hp-wallpapers,
 # Desktop
-    gdm3,
-    gnome-shell,
-    xorg,
-# Distribution
-    pop-default-settings,
-    pop-upgrade,
-# Base
-    apt-transport-https,
-    avahi-autoipd,
-    avahi-daemon,
-    cryptsetup,
-    dbus-user-session,
-    ecryptfs-utils,
-    glib-networking,
-    gstreamer1.0-plugins-base-apps,
-    libnss-mdns,
-    net-tools,
-    policykit-desktop-privileges,
-    systemd-resolvconf | resolvconf,
-    xdg-desktop-portal-gnome,
-    xdg-user-dirs-gtk,
-    xdg-utils,
+    system76-scheduler,
+    touchegg,
+# Applications
+    pop-shop,
+    pop-transition,
+    popsicle-gtk,
+    popsicle,
+    ibus-table-emoji,
+    libavcodec58,
+    libreoffice-calc,
+    libreoffice-impress,
+    libreoffice-writer,
+# Last to replace mime information
+    file-roller,
+    com.github.donadigo.eddy,
+# Plugins
+    fonts-noto-color-emoji,
+    libreoffice-ogltrans,
+    network-manager-config-connectivity-pop,
+    sessioninstaller,
+Conflicts: system76-desktop
+
+Package: pop-server
+Architecture: linux-any
+Essential: yes
+Depends: ${misc:Depends},
+    pop-container-interactive,
 # Hardware
     acpi-support [amd64],
     alsa-base,
@@ -103,7 +99,168 @@ Depends: ${misc:Depends},
     ubuntu-drivers-common,
     wireless-tools,
     vdpau-driver-all,
-# Pipewire
+# Kernel
+    linux-system76 [amd64] | linux-raspi,
+# Distribution
+    pop-default-settings,
+    pop-upgrade,
+
+Package: pop-container-interactive
+Architecture: linux-any
+Essential: yes
+Depends: ${misc:Depends},
+    pop-container-runtime,
+# Base
+    apt-transport-https,
+    avahi-autoipd,
+    avahi-daemon,
+    chrony,
+    cryptsetup,
+    dbus-user-session,
+    ecryptfs-utils,
+    glib-networking,
+    gstreamer1.0-plugins-base-apps,
+    libnss-mdns,
+    net-tools,
+    policykit-desktop-privileges,
+    systemd-resolvconf | resolvconf,
+    xdg-user-dirs-gtk,
+    xdg-utils,
+Recommends:
+# Programs
+    build-essential,
+    time,
+# Plugins
+    brltty,
+# Desktop
+    dbus-broker,
+    flatpak,
+Suggests:
+# Programs
+    curl,
+    git,
+    mtr-tiny,
+    neovim,
+    nano,
+
+Package: pop-container-runtime
+Architecture: linux-any
+Essential: yes
+Depends: ${misc:Depends},
+# Debian minbase
+    adduser,
+    apt,
+    base-files,
+    base-passwd,
+    bash,
+    bsdutils,
+    coreutils,
+    dash,
+    debconf,
+    debianutils,
+    diffutils,
+    dpkg,
+    e2fsprogs,
+    findutils,
+    gcc-12-base,
+    gpgv,
+    grep,
+    gzip,
+    hostname,
+    init-system-helpers,
+    libacl1,
+    libapt-pkg6.0,
+    libattr1,
+    libaudit-common,
+    libaudit1,
+    libblkid1,
+    libbz2-1.0,
+    libc-bin,
+    libc6,
+    libcap-ng0,
+    libcap2,
+    libcom-err2,
+    libcrypt1,
+    libdb5.3,
+    libdebconfclient0,
+    libext2fs2,
+    libffi8,
+    libgcc-s1,
+    libgcrypt20,
+    libgmp10,
+    libgnutls30,
+    libgpg-error0,
+    libgssapi-krb5-2,
+    libhogweed6,
+    libidn2-0,
+    libk5crypto3,
+    libkeyutils1,
+    libkrb5-3,
+    libkrb5support0,
+    liblz4-1,
+    liblzma5,
+    libmount1,
+    libncurses6,
+    libncursesw6,
+    libnettle8,
+    libnsl2,
+    libp11-kit0,
+    libpam-modules-bin,
+    libpam-modules,
+    libpam-runtime,
+    libpam0g,
+    libpcre2-8-0,
+    libpcre3,
+    libprocps8,
+    libseccomp2,
+    libselinux1,
+    libsemanage-common,
+    libsemanage2,
+    lisepol2,
+    libsmartcols1,
+    libss2,
+    libssl3,
+    libstdc++6,
+    libsystemd0,
+    libtasn1-6,
+    libtinfo6,
+    libtirpc-common,
+    libtirpc3,
+    libudev1,
+    libunistring2,
+    libuuid1,
+    libxxhash0,
+    libzstd1,
+    login,
+    logsave,
+    lsb-base,
+    mawk,
+    mount,
+    ncurses-base,
+    ncurses-bin,
+    passwd,
+    perl-base,
+    procps,
+    sed,
+    sensible-utils,
+    sysvinit-utils,
+    tar,
+    ubuntu-keyring,
+    usrmerge,
+    util-linux,
+    zlib1g,
+# Pop Additions
+    pop-keyring,
+
+#
+#  End main metapackes. The following are
+#  dependents of the above.
+#
+
+Package: pop-pipewire
+Architecture: linux-any
+Essential: yes
+Depends: ${misc:Depends},
     libasound2-plugins,
     libldacbt-abr2,
     libldacbt-enc2,
@@ -116,8 +273,36 @@ Depends: ${misc:Depends},
     pipewire-pulse,
     pulseaudio-utils,
     wireplumber,
-# Kernel
-    linux-system76 [amd64],
+Conflicts: pulseaudio, pipewire-media-session
+
+Package: pop-de-gnome
+Architecture: linux-any
+Essential: yes
+Depends: ${misc:Depends},
+    gdm3,
+    gnome-shell,
+    pop-session,
+    xdg-desktop-portal-gnome,
+    nautilus-sendto,
+    network-manager-pptp-gnome,
+    network-manager-openvpn-gnome,
+# Applications
+    gnome-control-center,
+    gnome-disk-utility,
+    gnome-system-monitor,
+    gnome-terminal | kgx,
+    language-selector-gnome,
+    nautilus,
+    pop-gnome-initial-setup,
+# Plugins
+    chrome-gnome-shell,
+    gnome-bluetooth,
+    gnome-online-miners,
+    gnome-orca,
+    gnome-menus,
+    gnome-themes-standard,
+    gnome-video-effects,
+    libpam-gnome-keyring,
 Recommends:
 # Applications
     baobab,
@@ -133,47 +318,22 @@ Recommends:
     gnome-power-manager,
     gnome-weather,
     gucharmap,
-    ibus-table-emoji,
-    libavcodec58,
-    libreoffice-calc,
-    libreoffice-impress,
-    libreoffice-writer,
-    pop-shop,
-    pop-transition,
-    popsicle-gtk,
     seahorse,
     simple-scan,
     totem,
     yelp,
-# Last to replace mime information
-    file-roller,
-    com.github.donadigo.eddy,
-# Programs
-    popsicle,
 # Plugins
-    brltty,
-    fonts-noto-color-emoji,
     gnome-remote-desktop,
     gnome-shell-extension-prefs,
     gstreamer1.0-vaapi,
     libreoffice-gnome,
-    libreoffice-ogltrans,
-    network-manager-config-connectivity-pop,
-    sessioninstaller,
-# Desktop
-    dbus-broker,
-    hidpi-daemon,
-    flatpak,
-    system76-scheduler,
-    touchegg,
-Conflicts: system76-desktop, pulseaudio, pipewire-media-session
-Description: Pop Desktop Metapackage
 
 Package: pop-desktop-raspi
 Architecture: arm64
 Depends: ${misc:Depends},
 # First to avoid dependency issues
     pop-desktop,
+    pop-hardware-raspi
 # Hardware
     libraspberrypi-bin,
     libraspberrypi0,
@@ -184,3 +344,4 @@ Depends: ${misc:Depends},
     linux-firmware-raspi2,
     linux-raspi,
 Description: Pop Desktop Metapackage for Raspberry Pi
+b
