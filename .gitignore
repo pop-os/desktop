@@ -1,0 +1,3 @@
+debian/pop-*
+debian/files
+debian/.debhelper

@@ -16,7 +16,7 @@ Homepage: https://github.com/system76/pop-desktop
 #   - pop-container-runtime
 #
 
-Package: pop-dekstop
+Package: pop-desktop
 Architecture: linux-any
 Essential: yes
 Depends: ${misc:Depends},
@@ -328,12 +328,11 @@ Recommends:
     gstreamer1.0-vaapi,
     libreoffice-gnome,
 
-Package: pop-desktop-raspi
+Package: pou-desktop-raspi
 Architecture: arm64
 Depends: ${misc:Depends},
 # First to avoid dependency issues
     pop-desktop,
-    pop-hardware-raspi
 # Hardware
     libraspberrypi-bin,
     libraspberrypi0,
