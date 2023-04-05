@@ -108,6 +108,8 @@ Depends: ${misc:Depends},
 Package: pop-container-interactive
 Architecture: linux-any
 Essential: yes
+Breaks: ubuntu-standard
+Replaces: ubuntu-standard
 Depends: ${misc:Depends},
     pop-container-runtime,
 # Base
@@ -251,6 +253,8 @@ Depends: ${misc:Depends},
     zlib1g,
 # Pop Additions
     pop-keyring,
+Breaks: ubuntu-minimal
+Replaces: ubuntu-minimal
 
 #
 #  End main metapackes. The following are
