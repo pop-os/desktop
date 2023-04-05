@@ -353,3 +353,19 @@ Depends: ${misc:Depends},
 # Kernel
     linux-firmware-raspi2,
     linux-raspi,
+
+#
+# Transitional Packaging
+#
+
+Package: ubuntu-minimal
+Architecture: linux-any
+Essential: yes
+Description: Pop!_OS transitional package to pop-container-runtime
+Depends: pop-container-runtime
+
+Package: ubuntu-standard
+Architecture: linux-any
+Essential: yes
+Description: Pop!_OS transitional package to pop-container-interactive
+Depends: pop-container-interactive
