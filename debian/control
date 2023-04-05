@@ -19,6 +19,7 @@ Homepage: https://github.com/system76/pop-desktop
 Package: pop-desktop
 Architecture: linux-any
 Essential: yes
+Description: The Pop!_OS Metapackage for desktop OS isntalls.
 Depends: ${misc:Depends},
 # First to avoid dependency issues
     adwaita-icon-theme-full,
@@ -71,6 +72,7 @@ Conflicts: system76-desktop
 Package: pop-server
 Architecture: linux-any
 Essential: yes
+Description: The Pop!_OS Metapackage for server OS isntalls.
 Depends: ${misc:Depends},
     pop-container-interactive,
 # Hardware
@@ -110,6 +112,7 @@ Architecture: linux-any
 Essential: yes
 Breaks: ubuntu-standard
 Replaces: ubuntu-standard
+Description: Pop!_OS metapackage for interactive containers. For example, a containerized development environment.
 Depends: ${misc:Depends},
     pop-container-runtime,
 # Base
@@ -148,6 +151,7 @@ Suggests:
 Package: pop-container-runtime
 Architecture: linux-any
 Essential: yes
+Description: Pop!_OS metapackage for runtime containers. For example, a cloud container cluster.
 Depends: ${misc:Depends},
 # Debian minbase
     adduser,
@@ -263,6 +267,7 @@ Replaces: ubuntu-minimal
 
 Package: pop-pipewire
 Architecture: linux-any
+Description: Pop!_OS metapackage for pipewire related dependencies.
 Essential: yes
 Depends: ${misc:Depends},
     libasound2-plugins,
@@ -282,6 +287,7 @@ Conflicts: pulseaudio, pipewire-media-session
 Package: pop-de-gnome
 Architecture: linux-any
 Essential: yes
+Description: Pop!_OS metapackage for GNOME related dependencies.
 Depends: ${misc:Depends},
     gdm3,
     gnome-shell,
@@ -334,6 +340,7 @@ Recommends:
 
 Package: pou-desktop-raspi
 Architecture: arm64
+Description: Pop Desktop Metapackage for Raspberry Pi
 Depends: ${misc:Depends},
 # First to avoid dependency issues
     pop-desktop,
@@ -346,5 +353,3 @@ Depends: ${misc:Depends},
 # Kernel
     linux-firmware-raspi2,
     linux-raspi,
-Description: Pop Desktop Metapackage for Raspberry Pi
-b
