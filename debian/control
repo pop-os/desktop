@@ -8,7 +8,7 @@ Standards-Version: 3.9.8
 Homepage: https://github.com/system76/pop-desktop
 
 #
-# Main Pop!_OS Metapackages in decending
+# Main Pop!_OS Metapackages in descending
 # order of abstraction
 #   - pop-desktop
 #   - pop-server
@@ -19,7 +19,7 @@ Homepage: https://github.com/system76/pop-desktop
 Package: pop-desktop
 Architecture: linux-any
 Essential: yes
-Description: The Pop!_OS Metapackage for desktop OS isntalls.
+Description: The Pop!_OS Metapackage for desktop OS installs.
 Depends: ${misc:Depends},
 # First to avoid dependency issues
     adwaita-icon-theme-full,
@@ -72,7 +72,7 @@ Conflicts: system76-desktop
 Package: pop-server
 Architecture: linux-any
 Essential: yes
-Description: The Pop!_OS Metapackage for server OS isntalls.
+Description: The Pop!_OS Metapackage for server OS installs.
 Depends: ${misc:Depends},
     pop-container-interactive,
 # Hardware
@@ -272,7 +272,7 @@ Depends: ${misc:Depends},
     pop-keyring,
 
 #
-#  End main metapackes. The following are
+#  End main metapackages. The following are
 #  dependents of the above.
 #
 
