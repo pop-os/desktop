@@ -349,7 +349,7 @@ Recommends:
     gstreamer1.0-vaapi,
     libreoffice-gnome,
 
-Package: pou-desktop-raspi
+Package: pop-desktop-raspi
 Architecture: arm64
 Description: Pop Desktop Metapackage for Raspberry Pi
 Depends: ${misc:Depends},
