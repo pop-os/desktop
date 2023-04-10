@@ -190,6 +190,9 @@ Package: pop-desktop-kde
 Architecture: amd64
 Depends: ${misc:Depends},
   dolphin,
+  dolphin-plugins,
+  kio-fuse,
+  kio-extras,
   kwin-x11,
   kde-plasma-desktop,
   xdg-desktop-portal-kde,
