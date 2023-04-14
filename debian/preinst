@@ -1,0 +1,14 @@
+#Remove Debian Wallpapers from the system while keeping default KDE wallpaper
+
+find /usr/share/wallpapers/* -maxdepth 0 -type d -not -name 'Next' -exec rm -r {} +
+
+
+#Symlink pop wallpapers from gnome directory to the KDE directory. 
+
+mkdir /usr/share/wallpapers/pop
+ln -s /usr/share/backgrounds/pop /usr/share/wallpapers/pop
+
+#Set Breeze as the default sddm theme. Needed as no theme is set by default and causes issues
+
+echo "[Theme]" >> /etc/sddm.conf
+echo "Current=breeze" >> /etc/sddm.conf
