@@ -75,6 +75,7 @@ Essential: yes
 Description: The Pop!_OS Metapackage for server OS installs.
 Depends: ${misc:Depends},
     pop-container-interactive,
+    cryptsetup,
 # Hardware
     acpi-support [amd64],
     alsa-base,
@@ -122,7 +123,6 @@ Depends: pop-container-runtime,
     busybox-static,
     command-not-found,
     chrony,
-    cryptsetup,
     dbus-user-session,
     ecryptfs-utils,
     ftp,
