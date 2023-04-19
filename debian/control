@@ -114,8 +114,7 @@ Essential: yes
 Breaks: ubuntu-standard (<<2)
 Replaces: ubuntu-standard (<<2)
 Description: Pop!_OS metapackage for interactive containers. For example, a containerized development environment.
-Depends: ${misc:Depends},
-    pop-container-runtime,
+Depends: pop-container-runtime,
 # Base
     apt-transport-https,
     avahi-autoipd,
@@ -166,7 +165,7 @@ Essential: yes
 Breaks: ubuntu-minimal (<<2)
 Replaces: ubuntu-minimal (<<2)
 Description: Pop!_OS metapackage for runtime containers. For example, a cloud container cluster.
-Depends: ${misc:Depends},
+Depends:
 # Debian minbase
     adduser,
     apt,
@@ -368,17 +367,3 @@ Depends: ${misc:Depends},
 # Kernel
     linux-firmware-raspi2,
     linux-raspi,
-
-#
-# Transitional Packaging
-#
-
-Package: ubuntu-minimal
-Architecture: linux-any
-Description: Pop!_OS transitional package to pop-container-runtime
-Depends: pop-container-runtime
-
-Package: ubuntu-standard
-Architecture: linux-any
-Description: Pop!_OS transitional package to pop-container-interactive
-Depends: pop-container-interactive
