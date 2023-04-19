@@ -114,6 +114,7 @@ Architecture: linux-any
 Essential: yes
 Breaks: ubuntu-standard (<<2)
 Replaces: ubuntu-standard (<<2)
+Provides: ubuntu-standard
 Description: Pop!_OS metapackage for interactive containers. For example, a containerized development environment.
 Depends: pop-container-runtime,
 # Base
@@ -164,6 +165,7 @@ Architecture: linux-any
 Essential: yes
 Breaks: ubuntu-minimal (<<2)
 Replaces: ubuntu-minimal (<<2)
+Provides: ubuntu-minimal
 Description: Pop!_OS metapackage for runtime containers. For example, a cloud container cluster.
 Depends:
 # Debian minbase
