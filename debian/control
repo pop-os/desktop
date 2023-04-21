@@ -300,7 +300,6 @@ Conflicts: pulseaudio, pipewire-media-session
 
 Package: pop-de-gnome
 Architecture: linux-any
-Essential: yes
 Description: Pop!_OS metapackage for GNOME related dependencies.
 Depends: ${misc:Depends},
     gdm3,
