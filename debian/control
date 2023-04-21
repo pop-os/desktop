@@ -20,10 +20,10 @@ Package: pop-desktop
 Architecture: linux-any
 Essential: yes
 Description: The Pop!_OS Metapackage for desktop OS installs.
+Pre-Depends: pop-de-gnome # | cosmic | kde | etc ...
 Depends: ${misc:Depends},
 # First to avoid dependency issues
     adwaita-icon-theme-full,
-    pop-de,
     pop-server,
     pop-pipewire,
 # Desktop
@@ -351,10 +351,6 @@ Recommends:
     gnome-shell-extension-prefs,
     gstreamer1.0-vaapi,
     libreoffice-gnome,
-# pop-de virtual package
-Conflicts: pop-de
-Provides: pop-de
-Replaces: pop-de
 
 Package: pop-desktop-raspi
 Architecture: arm64
