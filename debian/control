@@ -110,6 +110,9 @@ Depends: ${misc:Depends},
     ubuntu-drivers-common,
     wireless-tools,
     vdpau-driver-all,
+    ecryptfs-utils,
+# Plugins
+    brltty,
 # Kernel
     linux-system76 [amd64] | linux-raspi,
 # Distribution
@@ -130,8 +133,6 @@ Depends: pop-container-runtime,
     avahi-daemon,
     busybox-static,
     command-not-found,
-    chrony,
-    ecryptfs-utils,
     ftp,
     gstreamer1.0-plugins-base-apps,
     info,
@@ -152,8 +153,6 @@ Recommends:
 # Programs
     build-essential,
     time,
-# Plugins
-    brltty,
 Suggests:
 # Programs
     curl,
