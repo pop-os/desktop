@@ -28,6 +28,7 @@ Depends: ${misc:Depends},
     pop-server,
     pop-pipewire,
 # Desktop
+    policykit-desktop-privileges,
     flatpak,
     xorg,
 # Plugins
