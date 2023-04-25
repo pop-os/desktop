@@ -97,6 +97,7 @@ Depends: ${misc:Depends},
     libsystemd0,
     systemd-sysv,
     dbus-user-session,
+    dbus-broker,
     libvdpau-va-gl1,
     lvm2,
     mesa-va-drivers,
@@ -153,8 +154,6 @@ Recommends:
     time,
 # Plugins
     brltty,
-# Desktop
-    dbus-broker,
 Suggests:
 # Programs
     curl,
