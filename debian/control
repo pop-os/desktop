@@ -47,6 +47,7 @@ Depends: ${misc:Depends},
     libproxy1-plugin-gsettings,
     libproxy1-plugin-networkmanager,
     sound-theme-freedesktop,
+    xdg-user-dirs-gtk,
 Recommends:
     pop-wallpapers | pop-hp-wallpapers,
 # Desktop
@@ -145,7 +146,6 @@ Depends: pop-container-runtime,
     telnet,
     tnftp,
     ufw,
-    xdg-user-dirs-gtk,
     xdg-utils,
 Recommends:
 # Programs
