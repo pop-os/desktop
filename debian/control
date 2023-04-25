@@ -111,13 +111,14 @@ Depends: ${misc:Depends},
     wireless-tools,
     vdpau-driver-all,
     ecryptfs-utils,
-# Plugins
-    brltty,
 # Kernel
     linux-system76 [amd64] | linux-raspi,
 # Distribution
     pop-default-settings,
     pop-upgrade,
+Recommends:
+# Plugins
+    brltty,
 
 Package: pop-container-interactive
 Architecture: linux-any
