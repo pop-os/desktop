@@ -69,6 +69,7 @@ Recommends:
     file-roller,
     com.github.donadigo.eddy,
 # Plugins
+    hidpi-daemon,
     fonts-noto-color-emoji,
     libreoffice-ogltrans,
     network-manager-config-connectivity-pop,
