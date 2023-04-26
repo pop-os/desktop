@@ -156,6 +156,7 @@ Recommends:
 # Programs
     build-essential,
     time,
+    iputils-ping,
 Suggests:
 # Programs
     curl,
