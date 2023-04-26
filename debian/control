@@ -137,12 +137,10 @@ Depends: pop-container-runtime,
     avahi-daemon,
     busybox-static,
     command-not-found,
-    ftp,
     gstreamer1.0-plugins-base-apps,
     info,
     iputils-tracepath,
     libnss-mdns,
-    lshw,
     net-tools,
     policykit-desktop-privileges,
     systemd-resolvconf | resolvconf,
@@ -155,15 +153,14 @@ Depends: pop-container-runtime,
 Recommends:
 # Programs
     build-essential,
-    time,
-    iputils-ping,
-Suggests:
-# Programs
     curl,
+    ftp,
     git,
+    iputils-ping,
+    lshw,
     mtr-tiny,
-    neovim,
     nano,
+    time,
 
 Package: pop-container-runtime
 Architecture: linux-any
