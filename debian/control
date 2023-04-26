@@ -29,6 +29,7 @@ Depends: ${misc:Depends},
     pop-pipewire,
 # Desktop
     policykit-desktop-privileges,
+    xdg-utils,
     flatpak,
     xorg,
 # Plugins
@@ -151,7 +152,6 @@ Depends: pop-container-runtime,
     telnet,
     tnftp,
     ufw,
-    xdg-utils,
 Recommends:
 # Programs
     build-essential,
