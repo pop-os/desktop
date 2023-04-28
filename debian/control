@@ -78,7 +78,7 @@ Conflicts: system76-desktop
 
 Package: pop-server
 Architecture: linux-any
-Essential: yes
+Protected: yes
 Description: The Pop!_OS Metapackage for server OS installs.
 Depends: ${misc:Depends},
     pop-container-interactive,
@@ -127,7 +127,7 @@ Recommends:
 
 Package: pop-container-interactive
 Architecture: linux-any
-Essential: yes
+Protected: yes
 Breaks: ubuntu-standard (<<2)
 Replaces: ubuntu-standard (<<2)
 Description: Pop!_OS metapackage for interactive containers. For example, a containerized development environment.
