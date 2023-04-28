@@ -352,6 +352,7 @@ Recommends:
     libreoffice-gnome,
 Conflicts:
     desktop-base,
+    sddm,
 
 Package: pop-desktop-raspi
 Architecture: arm64
