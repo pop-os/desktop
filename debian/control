@@ -226,6 +226,7 @@ Recommends:
   libreoffice-plasma,
   plasma-browser-integration,
   kwin-bismuth,
+  kmenuedit,
   okular,
   gwenview,
   kdeconnect,
