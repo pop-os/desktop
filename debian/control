@@ -387,7 +387,6 @@ Depends: ${misc:Depends},
   kde-config-screenlocker,
   kde-config-gtk-style,
   kde-config-sddm,
-  sddm,
   sddm-theme-breeze,
   kimageformat-plugins,
 Recommends:
@@ -399,6 +398,7 @@ Recommends:
   okular,
   gwenview,
   kdeconnect,
+  sddm,
 
 Package: pop-desktop-raspi
 Architecture: arm64
