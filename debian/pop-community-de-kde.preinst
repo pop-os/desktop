@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+. /usr/share/debconf/confmodule
+
+db_input high pop-community-de-kde/use_kde
+db_go
+db_get pop-community-de-kde/use_kde
+
+if [ "$RET" = "Do Not Change (RECOMMENDED)" ]; then
+  exit 1
+fi

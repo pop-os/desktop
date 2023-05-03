@@ -1,0 +1,6 @@
+Template: pop-community-de-kde/use_kde
+Type: select
+Choices: Do Not Change (RECOMMENDED), Switch to KDE
+Default: Do Not Change (RECOMMENDED)
+Description: Do you want to switch your desktop environment to KDE?
+ If you are not sure, select "DO Not Change".

@@ -357,6 +357,7 @@ Conflicts:
 Package: pop-community-de-kde
 Architecture: amd64
 Description: Pop Desktop Metapackage for KDE
+Pre-Depends: debconf,
 Depends: ${misc:Depends},
 # Essential
   dolphin,

@@ -5,6 +5,10 @@
 # #export DH_VERBOSE=1
 export DEB_BUILD_OPTIONS = nocheck
 
+override_dh_auto_install:
+	dh_installdebconf
+	dh_auto_install
+
 override_dh_installgsettings:
 	dh_installgsettings --priority=50
 
