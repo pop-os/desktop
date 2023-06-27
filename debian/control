@@ -117,7 +117,7 @@ Depends: ${misc:Depends},
     pulseaudio-utils,
     wireplumber,
 # Kernel
-    linux-system76 [amd64],
+    linux-generic-hwe-22.04 [amd64],
 Recommends:
 # Applications
     baobab,
