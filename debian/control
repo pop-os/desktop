@@ -8,168 +8,21 @@ Standards-Version: 3.9.8
 Homepage: https://github.com/system76/pop-desktop
 
 #
-# Main Pop!_OS Metapackages in descending
-# order of abstraction
-#   - pop-desktop
-#   - pop-server
-#   - pop-container-interactive
-#   - pop-container-runtime
+# Main Pop!_OS metapackages in the order
+# they build on top of each other:
 #
-
-Package: pop-desktop
-Architecture: linux-any
-Protected: yes
-Description: The Pop!_OS Metapackage for desktop OS installs.
-Pre-Depends: pop-de-gnome
-# Pre-Depends: pop-de-gnome | cosmic | kde | etc ...
-Depends: ${misc:Depends},
-# First to avoid dependency issues
-    adwaita-icon-theme-full,
-    pop-server,
-    pop-pipewire,
-# Desktop
-    policykit-desktop-privileges,
-    xdg-utils,
-    flatpak,
-    xorg,
-# Plugins
-    glib-networking,
-    fonts-dejavu-core,
-    fonts-freefont-ttf,
-    fonts-liberation,
-    ghostscript-x,
-    gvfs-backends,
-    gvfs-fuse,
-    ibus-table,
-    inputattach,
-    libatk-adaptor,
-    libcanberra-gtk-module,
-    libegl-mesa0,
-    libglib2.0-bin,
-    libproxy1-plugin-gsettings,
-    libproxy1-plugin-networkmanager,
-    sound-theme-freedesktop,
-    xdg-user-dirs-gtk,
-Recommends:
-    pop-wallpapers | pop-hp-wallpapers,
-# Desktop
-    system76-scheduler,
-    touchegg,
-# Applications
-    pop-shop,
-    pop-transition,
-    popsicle-gtk,
-    popsicle,
-    ibus-table-emoji,
-    libavcodec58,
-    libreoffice-calc,
-    libreoffice-impress,
-    libreoffice-writer,
-# Last to replace mime information
-    file-roller,
-    com.github.donadigo.eddy,
-# Plugins
-    hidpi-daemon,
-    fonts-noto-color-emoji,
-    libreoffice-ogltrans,
-    network-manager-config-connectivity-pop,
-    sessioninstaller,
-Conflicts: system76-desktop
-
-Package: pop-server
-Architecture: linux-any
-Protected: yes
-Description: The Pop!_OS Metapackage for server OS installs.
-Depends: ${misc:Depends},
-    pop-container-interactive,
-    cryptsetup,
-# Hardware
-    acpi-support [amd64],
-    alsa-base,
-    bluez,
-    bluez-cups,
-    cups-bsd,
-    cups,
-    fwupd,
-    fwupdate,
-    gstreamer1.0-alsa,
-    ifupdown,
-    laptop-detect,
-    libblockdev-crypto2,
-    libblockdev-mdraid2,
-    libsystemd0,
-    systemd-sysv,
-    systemd-resolvconf | resolvconf,
-    dbus-user-session,
-    libvdpau-va-gl1,
-    lvm2,
-    mesa-va-drivers,
-    mesa-vulkan-drivers,
-    network-manager,
-    openprinting-ppds,
-    pcmciautils,
-    printer-driver-all,
-    rfkill,
-    ubuntu-drivers-common,
-    wireless-tools,
-    vdpau-driver-all,
-    ecryptfs-utils,
-# Kernel
-    linux-system76 [amd64] | linux-raspi,
-# Distribution
-    pop-default-settings,
-    pop-upgrade,
-Recommends:
-# Plugins
-    brltty,
-# Desktop
-    dbus-broker,
-
-Package: pop-container-interactive
-Architecture: linux-any
-Protected: yes
-Breaks: ubuntu-standard (<<2)
-Replaces: ubuntu-standard (<<2)
-Description: Pop!_OS metapackage for interactive containers. For example, a containerized development environment.
-Depends: pop-container-runtime,
-# Base
-    apt-transport-https,
-    avahi-autoipd,
-    avahi-daemon,
-    busybox-static,
-    command-not-found,
-    gstreamer1.0-plugins-base-apps,
-    info,
-    iputils-tracepath,
-    isc-dhcp-client,
-    libnss-mdns,
-    net-tools,
-    policykit-desktop-privileges,
-    strace,
-    sudo,
-    tcpdump,
-    telnet,
-    tnftp,
-    ufw,
-    man-db,
-Recommends:
-# Programs
-    build-essential,
-    curl,
-    ftp,
-    git,
-    iputils-ping,
-    lshw,
-    mtr-tiny,
-    nano,
-    time,
+#   1. pop-container-runtime
+#   2. pop-container-interactive
+#   3. pop-server
+#   4. pop-desktop
+#
 
 Package: pop-container-runtime
 Architecture: linux-any
 Essential: yes
 Breaks: ubuntu-minimal (<<2)
 Replaces: ubuntu-minimal (<<2)
-Description: Pop!_OS metapackage for runtime containers. For example, a cloud container cluster.
+Description: Pop!_OS metapackage for runtime containers (for example, a cloud container cluster).
 Depends:
 # Debian minbase
     adduser,
@@ -275,14 +128,178 @@ Depends:
 # Pop Additions
     pop-keyring,
 
+Package: pop-container-interactive
+Architecture: linux-any
+Protected: yes
+Breaks: ubuntu-standard (<<2)
+Replaces: ubuntu-standard (<<2)
+Description: Pop!_OS metapackage for interactive containers (for example, a containerized development environment).
+Depends: pop-container-runtime,
+# Base
+    apt-transport-https,
+    avahi-autoipd,
+    avahi-daemon,
+    busybox-static,
+    command-not-found,
+    gstreamer1.0-plugins-base-apps,
+    info,
+    iputils-tracepath,
+    isc-dhcp-client,
+    libnss-mdns,
+    net-tools,
+    policykit-desktop-privileges,
+    strace,
+    sudo,
+    tcpdump,
+    telnet,
+    tnftp,
+    ufw,
+    man-db,
+Recommends:
+# Programs
+    build-essential,
+    curl,
+    ftp,
+    git,
+    iputils-ping,
+    lshw,
+    mtr-tiny,
+    nano,
+    time,
+
+Package: pop-server
+Architecture: linux-any
+Protected: yes
+Description: Pop!_OS metapackage for server OS installations.
+Depends: ${misc:Depends},
+    pop-container-interactive,
+    cryptsetup,
+# Hardware
+    acpi-support [amd64],
+    alsa-base,
+    bluez,
+    bluez-cups,
+    cups-bsd,
+    cups,
+    fwupd,
+    fwupdate,
+    gstreamer1.0-alsa,
+    ifupdown,
+    laptop-detect,
+    libblockdev-crypto2,
+    libblockdev-mdraid2,
+    libsystemd0,
+    systemd-sysv,
+    systemd-resolvconf | resolvconf,
+    dbus-user-session,
+    libvdpau-va-gl1,
+    lvm2,
+    mesa-va-drivers,
+    mesa-vulkan-drivers,
+    network-manager,
+    openprinting-ppds,
+    pcmciautils,
+    printer-driver-all,
+    rfkill,
+    ubuntu-drivers-common,
+    wireless-tools,
+    vdpau-driver-all,
+    ecryptfs-utils,
+# Kernel
+    linux-system76 [amd64] | linux-raspi,
+# Distribution
+    pop-default-settings,
+    pop-upgrade,
+Recommends:
+# Plugins
+    brltty,
+# Desktop
+    dbus-broker,
+
+Package: pop-desktop
+Architecture: linux-any
+Protected: yes
+Description: Pop!_OS metapackage for desktop OS installations.
+Pre-Depends: pop-de-gnome
+# Pre-Depends: pop-de-gnome | cosmic | kde | etc...
+Depends: ${misc:Depends},
+# First to avoid dependency issues
+    adwaita-icon-theme-full,
+    pop-server,
+    pop-pipewire,
+# Desktop
+    policykit-desktop-privileges,
+    xdg-utils,
+    flatpak,
+    xorg,
+# Plugins
+    glib-networking,
+    fonts-dejavu-core,
+    fonts-freefont-ttf,
+    fonts-liberation,
+    ghostscript-x,
+    gvfs-backends,
+    gvfs-fuse,
+    ibus-table,
+    inputattach,
+    libatk-adaptor,
+    libcanberra-gtk-module,
+    libegl-mesa0,
+    libglib2.0-bin,
+    libproxy1-plugin-gsettings,
+    libproxy1-plugin-networkmanager,
+    sound-theme-freedesktop,
+    xdg-user-dirs-gtk,
+Recommends:
+    pop-wallpapers | pop-hp-wallpapers,
+# Desktop
+    system76-scheduler,
+    touchegg,
+# Applications
+    pop-shop,
+    pop-transition,
+    popsicle-gtk,
+    popsicle,
+    ibus-table-emoji,
+    libavcodec58,
+    libreoffice-calc,
+    libreoffice-impress,
+    libreoffice-writer,
+# Last to replace mime information
+    file-roller,
+    com.github.donadigo.eddy,
+# Plugins
+    hidpi-daemon,
+    fonts-noto-color-emoji,
+    libreoffice-ogltrans,
+    network-manager-config-connectivity-pop,
+    sessioninstaller,
+Conflicts: system76-desktop
+
+Package: pop-desktop-raspi
+Architecture: arm64
+Description: Pop!_OS metapackage for Raspberry Pi installations.
+Depends: ${misc:Depends},
+# First to avoid dependency issues
+    pop-desktop,
+# Hardware
+    libraspberrypi-bin,
+    libraspberrypi0,
+    pi-bluetooth,
+    rpi-eeprom,
+    u-boot-rpi,
+# Kernel
+    linux-firmware-raspi2,
+    linux-raspi,
+
 #
-#  End main metapackages. The following are
-#  dependents of the above.
+#  Additional Pop!_OS metapackages used to group
+#  dependencies of the main metapackages above:
 #
 
 Package: pop-pipewire
 Architecture: linux-any
-Description: Pop!_OS metapackage for pipewire related dependencies.
+Description: Pop!_OS metapackage for PipeWire-related dependencies.
 Essential: yes
 Depends: ${misc:Depends},
     libasound2-plugins,
@@ -301,7 +318,7 @@ Conflicts: pulseaudio, pipewire-media-session
 
 Package: pop-de-gnome
 Architecture: linux-any
-Description: Pop!_OS metapackage for GNOME related dependencies.
+Description: Pop!_OS metapackage for GNOME-related dependencies.
 Depends: ${misc:Depends},
     gdm3,
     gnome-shell,
@@ -355,32 +372,16 @@ Conflicts:
     desktop-base,
     sddm,
 
-Package: pop-desktop-raspi
-Architecture: arm64
-Description: Pop Desktop Metapackage for Raspberry Pi
-Depends: ${misc:Depends},
-# First to avoid dependency issues
-    pop-desktop,
-# Hardware
-    libraspberrypi-bin,
-    libraspberrypi0,
-    pi-bluetooth,
-    rpi-eeprom,
-    u-boot-rpi,
-# Kernel
-    linux-firmware-raspi2,
-    linux-raspi,
-
 #
-# Transitional Packaging
+# Transitional packaging:
 #
 
 Package: ubuntu-minimal
 Architecture: linux-any
-Description: Pop!_OS transitional package to pop-container-runtime
+Description: Pop!_OS transitional package to pop-container-runtime.
 Depends: pop-container-runtime
 
 Package: ubuntu-standard
 Architecture: linux-any
-Description: Pop!_OS transitional package to pop-container-interactive
+Description: Pop!_OS transitional package to pop-container-interactive.
 Depends: pop-container-interactive
