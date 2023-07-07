@@ -159,6 +159,7 @@ Recommends:
 # Programs
     build-essential,
     curl,
+    friendly-recovery,
     ftp,
     git,
     iputils-ping,
