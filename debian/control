@@ -158,6 +158,8 @@ Recommends:
     flatpak,
     system76-scheduler,
     touchegg,
+# OOM Killer
+    bustd,
 Conflicts: system76-desktop
 Description: Pop Desktop Metapackage
 
@@ -314,4 +316,6 @@ Recommends:
     flatpak,
     system76-scheduler,
     touchegg,
+# OOM Killer
+    bustd,
 Description: Pop Desktop Metapackage for Raspberry Pi
