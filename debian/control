@@ -293,6 +293,7 @@ Depends: ${misc:Depends},
     u-boot-rpi,
 # Kernel
     linux-firmware-raspi2,
+    linux-modules-extra-raspi,
     linux-raspi,
 
 #
