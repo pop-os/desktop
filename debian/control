@@ -275,6 +275,8 @@ Recommends:
     libreoffice-ogltrans,
     network-manager-config-connectivity-pop,
     sessioninstaller,
+# AppImage dependency
+    libfuse2,
 Conflicts: system76-desktop
 
 Package: pop-desktop-raspi
