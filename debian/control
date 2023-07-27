@@ -374,7 +374,6 @@ Recommends:
     libreoffice-gnome,
 Conflicts:
     desktop-base,
-    sddm,
 
 #
 # Transitional packaging:
