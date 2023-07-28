@@ -372,8 +372,6 @@ Recommends:
     gnome-shell-extension-prefs,
     gstreamer1.0-vaapi,
     libreoffice-gnome,
-Conflicts:
-    desktop-base,
 
 #
 # Transitional packaging:
