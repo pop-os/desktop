@@ -277,7 +277,8 @@ Recommends:
     sessioninstaller,
 # AppImage dependency
     libfuse2,
-Conflicts: system76-desktop
+Conflicts: desktop-base, system76-desktop
+Provides: desktop-base
 
 Package: pop-desktop-raspi
 Architecture: arm64
@@ -372,8 +373,6 @@ Recommends:
     gnome-shell-extension-prefs,
     gstreamer1.0-vaapi,
     libreoffice-gnome,
-Conflicts:
-    desktop-base,
 
 #
 # Transitional packaging:
