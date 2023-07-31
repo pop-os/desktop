@@ -156,6 +156,7 @@ Depends: pop-container-runtime,
     man-db,
 Recommends:
 # Programs
+    bash-completion,
     build-essential,
     command-not-found,
     curl,
