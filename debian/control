@@ -223,8 +223,8 @@ Package: pop-desktop
 Architecture: linux-any
 Protected: yes
 Description: Pop!_OS metapackage for desktop OS installations.
-Pre-Depends: pop-de-gnome
-# Pre-Depends: pop-de-gnome | cosmic | kde | etc...
+Pre-Depends: pop-de-cosmic
+# Pre-Depends: pop-de-cosmic | gnome | kde | etc...
 Depends: ${misc:Depends},
 # First to avoid dependency issues
     adwaita-icon-theme-full,
@@ -259,22 +259,16 @@ Recommends:
     system76-scheduler,
     touchegg,
 # Applications
-    pop-shop,
     pop-transition,
     popsicle-gtk,
     popsicle,
     ibus-table-emoji,
     libavcodec58,
-    libreoffice-calc,
-    libreoffice-impress,
-    libreoffice-writer,
 # Last to replace mime information
     file-roller,
     com.github.donadigo.eddy,
 # Plugins
-    hidpi-daemon,
     fonts-noto-color-emoji,
-    libreoffice-ogltrans,
     network-manager-config-connectivity-pop,
     sessioninstaller,
 # AppImage dependency
@@ -322,45 +316,22 @@ Depends: ${misc:Depends},
     wireplumber,
 Conflicts: pulseaudio, pipewire-media-session
 
-Package: pop-de-gnome
+Package: pop-de-cosmic
 Architecture: linux-any
 Description: Pop!_OS metapackage for GNOME-related dependencies.
 Depends: ${misc:Depends},
-    gdm3,
-    gnome-shell,
-    pop-session,
-    xdg-desktop-portal-gnome,
-    nautilus-sendto,
-    network-manager-pptp-gnome,
-    network-manager-openvpn-gnome,
+    cosmic-session
 # Applications
-    gnome-control-center,
     gnome-disk-utility,
     gnome-system-monitor,
-    gnome-terminal | kgx,
     language-selector-gnome,
-    nautilus,
-    pop-gnome-initial-setup,
-# Plugins
-    chrome-gnome-shell,
-    gnome-bluetooth,
-    gnome-online-miners,
-    gnome-orca,
-    gnome-menus,
-    gnome-themes-standard,
-    gnome-video-effects,
-    libpam-gnome-keyring,
 Recommends:
 # Applications
     baobab,
     eog,
     evince,
     firefox,
-    geary,
-    gedit,
     gnome-calculator,
-    gnome-calendar,
-    gnome-contacts,
     gnome-font-viewer,
     gnome-power-manager,
     gnome-weather,
@@ -370,10 +341,7 @@ Recommends:
     totem,
     yelp,
 # Plugins
-    gnome-remote-desktop,
-    gnome-shell-extension-prefs,
     gstreamer1.0-vaapi,
-    libreoffice-gnome,
 
 #
 # Transitional packaging:

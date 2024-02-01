@@ -1,3 +1,9 @@
+pop-desktop (3.0.0) noble; urgency=medium
+
+  * Use COSMIC desktop environment by default
+
+ -- Jeremy Soller <jeremy@system76.com>  Thu, 01 Feb 2024 10:18:36 -0700
+
 pop-desktop (2.0.0) focal; urgency=medium
 
   * Replace ubuntu dependencies with pop-container dependencies.
