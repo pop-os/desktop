@@ -320,7 +320,8 @@ Package: pop-de-cosmic
 Architecture: linux-any
 Description: Pop!_OS metapackage for GNOME-related dependencies.
 Depends: ${misc:Depends},
-    cosmic-session
+# Session
+    cosmic-session,
 # Applications
     gnome-disk-utility,
     gnome-system-monitor,
