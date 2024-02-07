@@ -228,7 +228,6 @@ Depends: ${misc:Depends},
     policykit-desktop-privileges,
     xdg-utils,
     flatpak,
-    xorg,
 # Plugins
     glib-networking,
     fonts-dejavu-core,
