@@ -261,8 +261,8 @@ Recommends:
 # Applications
     pop-shop,
     pop-transition,
-    popsicle-gtk,
-    popsicle,
+#    popsicle-gtk,
+#    popsicle,
     ibus-table-emoji,
     libavcodec58,
     libreoffice-calc,
@@ -279,7 +279,9 @@ Recommends:
     sessioninstaller,
 # AppImage dependency
     libfuse2,
-Conflicts: system76-desktop
+Conflicts: system76-desktop,
+           popsicle,
+           popsicle-gtk
 
 Package: pop-desktop-raspi
 Architecture: arm64
