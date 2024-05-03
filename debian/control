@@ -204,7 +204,7 @@ Depends: ${misc:Depends},
     vdpau-driver-all,
     ecryptfs-utils,
 # Kernel
-    linux-system76 [amd64] | linux-raspi,
+    linux-system76 | linux-raspi,
 # Distribution
     pop-default-settings,
 #TODO pop-upgrade,
