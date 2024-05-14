@@ -313,6 +313,8 @@ Conflicts: pulseaudio, pipewire-media-session
 Package: pop-de-cosmic
 Architecture: linux-any
 Description: Pop!_OS metapackage for GNOME-related dependencies.
+Breaks: pop-de-gnome (<<3)
+Replaces: pop-de-gnome (<<3)
 Depends: ${misc:Depends},
 # Session
     cosmic-session,
