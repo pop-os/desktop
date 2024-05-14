@@ -95,7 +95,7 @@ Depends:
     libsepol2,
     libsmartcols1,
     libss2,
-    libssl3,
+    libssl3t64,
     libstdc++6,
     libtasn1-6,
     libtinfo6,
