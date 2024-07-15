@@ -327,16 +327,13 @@ Recommends:
     eog,
     evince,
     firefox,
-    gnome-calculator,
     gnome-font-viewer,
     gnome-power-manager,
-    gnome-weather,
     gucharmap,
     seahorse,
     simple-scan,
     thunderbird,
     totem,
-    yelp,
 # Plugins
     gstreamer1.0-vaapi,
 
