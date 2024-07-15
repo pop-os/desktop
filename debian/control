@@ -334,6 +334,7 @@ Recommends:
     gucharmap,
     seahorse,
     simple-scan,
+    thunderbird,
     totem,
     yelp,
 # Plugins
