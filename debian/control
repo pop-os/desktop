@@ -207,7 +207,6 @@ Depends: ${misc:Depends},
     ubuntu-drivers-common,
     wireless-tools,
     vdpau-driver-all,
-    ecryptfs-utils,
 # Kernel
     linux-system76 [amd64] | linux-raspi,
 # Distribution
