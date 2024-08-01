@@ -248,6 +248,7 @@ Depends: ${misc:Depends},
 Recommends:
     pop-wallpapers | pop-hp-wallpapers,
 # Desktop
+    network-manager-gnome,
     system76-scheduler,
     touchegg,
 # Applications
