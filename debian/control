@@ -247,7 +247,6 @@ Depends: ${misc:Depends},
     sound-theme-freedesktop,
     xdg-user-dirs-gtk,
 Recommends:
-    pop-wallpapers | pop-hp-wallpapers,
 # Desktop
     network-manager-gnome,
     system76-power,
