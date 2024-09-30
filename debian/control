@@ -323,6 +323,8 @@ Depends: ${misc:Depends},
     gnome-system-monitor,
     language-selector-gnome,
 Recommends:
+# Accessibility
+    speech-dispatcher,
 # Applications
     baobab,
     eog,
