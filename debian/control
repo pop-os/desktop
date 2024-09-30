@@ -324,6 +324,7 @@ Depends: ${misc:Depends},
     language-selector-gnome,
 Recommends:
 # Accessibility
+    orca,
     speech-dispatcher,
 # Applications
     baobab,
