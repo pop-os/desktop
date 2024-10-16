@@ -206,7 +206,7 @@ Depends: ${misc:Depends},
     linux-system76 | linux-raspi,
 # Distribution
     pop-default-settings,
-#TODO pop-upgrade,
+    pop-upgrade,
 Recommends:
 # Plugins
     brltty,
