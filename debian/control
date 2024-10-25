@@ -282,8 +282,7 @@ Depends: ${misc:Depends},
     rpi-eeprom,
     u-boot-rpi,
 # Kernel
-    linux-firmware-raspi2,
-    linux-modules-extra-raspi,
+    linux-firmware-raspi,
     linux-raspi,
 
 #
