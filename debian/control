@@ -260,7 +260,6 @@ Recommends:
     libavcodec58,
 # Last to replace mime information
     file-roller,
-    com.github.donadigo.eddy,
 # Plugins
     fonts-noto-color-emoji,
     network-manager-config-connectivity-pop,
