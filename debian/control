@@ -263,7 +263,6 @@ Recommends:
 # Plugins
     fonts-noto-color-emoji,
     network-manager-config-connectivity-pop,
-    sessioninstaller,
 # AppImage dependency
     libfuse2,
 Conflicts: system76-desktop
