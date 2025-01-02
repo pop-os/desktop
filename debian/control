@@ -335,7 +335,6 @@ Recommends:
     seahorse,
     simple-scan,
     thunderbird,
-    totem,
 # Plugins
     gstreamer1.0-vaapi,
 
