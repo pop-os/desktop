@@ -39,7 +39,7 @@ Depends:
     dpkg,
     e2fsprogs,
     findutils,
-    gcc-12-base,
+    gcc-14-base,
     gpgv,
     grep,
     gzip,
@@ -167,6 +167,8 @@ Recommends:
     mtr-tiny,
     nano,
     time,
+# Needed for dkms package builds with Linux 6.12+
+    gcc-14
 
 Package: pop-server
 Architecture: linux-any
