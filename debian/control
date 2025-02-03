@@ -140,7 +140,7 @@ Depends: pop-container-runtime,
     gstreamer1.0-plugins-base-apps,
     info,
     iputils-tracepath,
-    isc-dhcp-client,
+    dhcpcd,
     libnss-mdns,
     libnss-myhostname,
     net-tools,
@@ -169,6 +169,9 @@ Recommends:
     time,
 # Needed for dkms package builds with Linux 6.12+
     gcc-14
+Conflicts:
+# Replaced with dhcpcd, causes disconnects & AppArmor logs if installed
+    isc-dhcp-client
 
 Package: pop-server
 Architecture: linux-any
