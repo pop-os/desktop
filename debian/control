@@ -216,6 +216,8 @@ Recommends:
     brltty,
 # Desktop
     dbus-broker,
+# Network
+    systemd-resolved,
 
 Package: pop-desktop
 Architecture: linux-any
