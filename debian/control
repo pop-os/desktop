@@ -267,7 +267,7 @@ Recommends:
     libreoffice-calc,
     libreoffice-draw,
     libreoffice-writer,
-    libreoffices-impress,
+    libreoffice-impress,
 # Last to replace mime information
     file-roller,
 # Plugins
@@ -355,7 +355,7 @@ Recommends:
 Package: libreoffice-cosmic
 Architecture: linux-any
 Pre-Depends: ucf, libreoffice-common
-Depends: ${misc:Depends}, libreoffice-common, libreoffice-coreutils, libreoffice-gtk3
+Depends: ${misc:Depends}, libreoffice-common, libreoffice-core, libreoffice-gtk3
 Conflicts: libreoffice-gtk4
 Recommends: libreoffice-style-sifr
 Enhances: libreoffice
