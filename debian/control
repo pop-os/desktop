@@ -264,6 +264,10 @@ Recommends:
     popsicle,
     ibus-table-emoji,
     libavcodec58,
+    libreoffice-calc,
+    libreoffice-draw,
+    libreoffice-writer,
+    libreoffices-impress,
 # Last to replace mime information
     file-roller,
 # Plugins
@@ -342,10 +346,21 @@ Recommends:
     thunderbird,
 # Plugins
     gstreamer1.0-vaapi,
+    libreoffice-cosmic,
 
 #
 # Transitional packaging:
 #
+
+Package: libreoffice-cosmic
+Architecture: linux-any
+Pre-Depends: ucf, libreoffice-common
+Depends: ${misc:Depends}, libreoffice-common, libreoffice-coreutils, libreoffice-gtk3
+Conflicts: libreoffice-gtk4
+Recommends: libreoffice-style-sifr
+Enhances: libreoffice
+Description: office productivity suite — COSMIC integration
+    This package contains required dependencies for LibreOffice on COSMIC.
 
 Package: ubuntu-minimal
 Architecture: linux-any
