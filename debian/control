@@ -330,6 +330,7 @@ Depends: ${misc:Depends},
     gnome-system-monitor,
     language-selector-gnome,
 Recommends:
+    cosmic-initial-setup,
 # Accessibility
     orca,
     speech-dispatcher,
