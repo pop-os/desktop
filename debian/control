@@ -46,7 +46,7 @@ Depends:
     hostname,
     init-system-helpers,
     libacl1,
-    libapt-pkg6.0,
+    libapt-pkg7.0,
     libattr1,
     libaudit-common,
     libaudit1,
