@@ -208,6 +208,8 @@ Depends: ${misc:Depends},
     vdpau-driver-all,
 # Kernel
     linux-system76 | linux-raspi,
+# Network
+    systemd-resolved | systemd-resolvconf,
 # Distribution
     pop-default-settings,
     pop-upgrade,
@@ -216,8 +218,6 @@ Recommends:
     brltty,
 # Desktop
     dbus-broker,
-# Network
-    systemd-resolved,
 
 Package: pop-desktop
 Architecture: linux-any
