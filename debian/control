@@ -204,7 +204,6 @@ Depends: ${misc:Depends},
     printer-driver-all,
     rfkill,
     ubuntu-drivers-common,
-    vdpau-driver-all,
 # Kernel
     linux-system76 | linux-raspi,
 # Distribution
