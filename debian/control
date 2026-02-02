@@ -209,7 +209,7 @@ Depends: ${misc:Depends},
 # Kernel
     linux-system76 | linux-raspi,
 # Network
-    systemd-resolved | systemd-resolvconf,
+    systemd-resolved,
 # Distribution
     pop-default-settings,
     pop-upgrade,
