@@ -254,6 +254,7 @@ Depends: ${misc:Depends},
     xdg-user-dirs-gtk,
 Recommends:
 # Desktop
+    game-devices-udev,
     network-manager-gnome,
     system76-power,
     system76-scheduler,
