@@ -257,7 +257,6 @@ Recommends:
     network-manager-gnome,
     system76-power,
     system76-scheduler,
-    touchegg,
 # Applications
     pop-transition,
     popsicle-gtk,
