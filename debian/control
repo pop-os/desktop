@@ -254,10 +254,10 @@ Depends: ${misc:Depends},
     xdg-user-dirs-gtk,
 Recommends:
 # Desktop
+    game-devices-udev,
     network-manager-gnome,
     system76-power,
     system76-scheduler,
-    touchegg,
 # Applications
     pop-transition,
     popsicle-gtk,
@@ -272,6 +272,9 @@ Recommends:
     file-roller,
 # Plugins
     fonts-noto-color-emoji,
+    gstreamer1.0-plugins-bad,
+    gstreamer1.0-plugins-good,
+    gstreamer1.0-vaapi,
     network-manager-config-connectivity-pop,
 # AppImage dependency
     libfuse2,
@@ -346,9 +349,6 @@ Recommends:
     simple-scan,
     thunderbird,
 # Plugins
-    gstreamer1.0-plugins-bad,
-    gstreamer1.0-plugins-good,
-    gstreamer1.0-vaapi,
     libreoffice-cosmic,
 
 #
