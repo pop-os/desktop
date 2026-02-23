@@ -263,7 +263,7 @@ Recommends:
     popsicle-gtk,
     popsicle,
     ibus-table-emoji,
-    libavcodec58,
+    libavcodec60,
     libreoffice-calc,
     libreoffice-draw,
     libreoffice-writer,
