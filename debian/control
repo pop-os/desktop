@@ -209,6 +209,7 @@ Depends: ${misc:Depends},
 # Kernel
     linux-system76 | linux-raspi,
 # Network
+    libnss-resolve,
     systemd-resolved,
 # Distribution
     pop-default-settings,
