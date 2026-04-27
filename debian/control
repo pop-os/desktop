@@ -87,7 +87,6 @@ Depends:
     libpam-runtime,
     libpam0g,
     libpcre2-8-0,
-    libpcre3,
     libseccomp2,
     libselinux1,
     libsemanage-common,
