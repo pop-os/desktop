@@ -38,7 +38,7 @@ Depends:
     dpkg,
     e2fsprogs,
     findutils,
-    gcc-14-base,
+    gcc-15-base,
     gpgv,
     grep,
     gzip,
@@ -166,7 +166,7 @@ Recommends:
     nano,
     time,
 # Needed for dkms package builds with Linux 6.12+
-    gcc-14
+    gcc-15
 Conflicts:
 # Replaced with NetworkManager's internal DHCP, conflicts if installed
     isc-dhcp-client
