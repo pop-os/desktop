@@ -245,8 +245,6 @@ Depends: ${misc:Depends},
     libatk-adaptor,
     libegl-mesa0,
     libglib2.0-bin,
-    libproxy1-plugin-gsettings,
-    libproxy1-plugin-networkmanager,
     sound-theme-freedesktop,
     xdg-user-dirs-gtk,
 Recommends:
