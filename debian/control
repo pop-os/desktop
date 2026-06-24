@@ -331,7 +331,6 @@ Depends: ${misc:Depends},
     cosmic-session,
 # Applications
     gnome-disk-utility,
-    gnome-system-monitor,
     language-selector-gnome,
 Recommends:
     cosmic-initial-setup,
