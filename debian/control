@@ -200,7 +200,6 @@ Depends: ${misc:Depends},
     network-manager,
     openprinting-ppds,
     pcmciautils,
-    printer-driver-all,
     rfkill,
     ubuntu-drivers-common,
     wireless-tools,
@@ -217,6 +216,8 @@ Recommends:
     brltty,
 # Desktop
     dbus-broker,
+Suggests:
+    printer-driver-all
 
 Package: pop-desktop
 Architecture: linux-any
