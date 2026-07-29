@@ -254,7 +254,6 @@ Recommends:
     system76-power,
     system76-scheduler,
 # Applications
-    pop-transition,
     popsicle-gtk,
     popsicle,
     ibus-table-emoji,
@@ -273,7 +272,7 @@ Recommends:
     network-manager-config-connectivity-pop,
 # AppImage dependency
     libfuse2t64,
-Conflicts: system76-desktop
+Conflicts: pop-transition, system76-desktop
 
 Package: pop-desktop-raspi
 Architecture: arm64
