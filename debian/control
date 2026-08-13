@@ -343,6 +343,8 @@ Recommends:
     thunderbird,
 # Plugins
     libreoffice-cosmic,
+# Qt theme support
+    cutecosmic-qt6
 
 #
 # Transitional packaging:
