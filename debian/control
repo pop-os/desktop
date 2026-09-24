@@ -332,7 +332,6 @@ Recommends:
     speech-dispatcher,
 # Applications
     baobab,
-    eog,
     evince,
     firefox,
     gnome-font-viewer,
