@@ -250,7 +250,7 @@ Depends: ${misc:Depends},
 Recommends:
 # Desktop
     game-devices-udev,
-    network-manager-gnome,
+    nm-connection-editor,
     system76-power,
     system76-scheduler,
 # Applications
