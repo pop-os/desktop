@@ -254,7 +254,7 @@ Recommends:
     system76-power,
     system76-scheduler,
 # Applications
-    popsicle-gtk,
+    popsicle-ui,
     popsicle,
     libavcodec62,
     libreoffice-calc,
