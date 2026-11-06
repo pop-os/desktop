@@ -259,7 +259,7 @@ Recommends:
     system76-scheduler,
 # Applications
     pop-transition,
-    popsicle-gtk,
+    popsicle-ui,
     popsicle,
     ibus-table-emoji,
     libavcodec60,
