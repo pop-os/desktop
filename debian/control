@@ -269,6 +269,7 @@ Recommends:
     fcitx5-mozc,
     fcitx5-pinyin,
     fcitx5-unikey,
+    fonts-noto-cjk,
     fonts-noto-color-emoji,
     gstreamer1.0-plugins-bad,
     gstreamer1.0-plugins-good,
