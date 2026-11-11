@@ -229,6 +229,7 @@ Depends: ${misc:Depends},
     pop-server,
     pop-pipewire,
 # Desktop
+    pkexec,
     policykit-desktop-privileges,
     xdg-utils,
     flatpak,
